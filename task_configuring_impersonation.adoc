@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task_configuring_impersonation.html 
+keywords: netapp, saas backup, microsoft 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts, 
+summary: Wenn Sie SaaS Backup mit Microsoft Exchange Online verwenden möchten, müssen Sie Impersonation konfigurieren. 
+---
+= Impersonation für Microsoft Exchange Online konfigurieren
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie SaaS Backup mit Microsoft Exchange Online verwenden möchten, müssen Sie Impersonation konfigurieren. Mit der Ipersonation kann Ihr Microsoft 365-Servicekonto Benutzerkonten imitieren und auf die zugehörigen Berechtigungen zugreifen.
+
+
+
+== Impersonation automatisch konfigurieren
+
+Um die Impersonation automatisch zu konfigurieren, führen Sie aus https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell-Befehle"].
+
+
+
+== Impersonation manuell konfigurieren
+
+Sie können Impersonation manuell mit Ihrem Microsoft 365-Administratorkonto konfigurieren sowie mit zusätzlichen Microsoft 365-Servicekonten in SaaS Backup. Weitere Informationen zu Servicekonten für Microsoft 365 finden Sie unter link:task_creating_msservice_account_with_global_permissions.html["Erstellen eines Microsoft 365-Servicekontos mit globalen Berechtigungen."]
+
+Um die Impersonation manuell zu konfigurieren, gehen Sie wie folgt vor:
+
+.Schritte
+. Melden Sie sich bei Ihrem Microsoft 365-Servicekonto an.
+. Wählen Sie die Registerkarte *Exchange* aus.
+. Wählen Sie links unter Dashboard die Option *Berechtigungen* aus.
+. Klicken Sie auf *Administratorrollen*.
+. Doppelklicken Sie im rechten Fensterbereich, um *Discovery Management* auszuwählen.
+. Klicken Sie unter *Rollen* auf das *+*-Symbol.
++
+image:365_discovery_management_impersonation_setup_roles.jpg["Screenshot des Fensters „Schreibumfang“ bei der Konfiguration von Impersonation für Microsoft Exchange Online"]
+
+. Wählen Sie im Dropdown-Menü die Option *ApplicationImpersonation* aus.
+. Klicken Sie Auf *Hinzufügen*.
+. Klicken Sie auf *OK*.
+. Überprüfen Sie, ob *ApplicationImpersonation* unter *Rollen* hinzugefügt wurde.
+. Klicken Sie unter Mitglieder auf das Symbol *+*.
++
+image:365_discovery_management_impersonation_setup_members.jpg["Screenshot des Mitgliederfensters bei der Konfiguration von Impersonation für Microsoft Exchange Online"]Ein neues Fenster wird angezeigt
+
+. Wählen Sie den Benutzernamen aus.
+. Klicken Sie Auf *Hinzufügen*.
+. Klicken Sie auf *OK*.
+. Stellen Sie sicher, dass der Benutzername im Abschnitt *Mitglieder* angezeigt wird.
+. Klicken Sie Auf *Speichern*.
+

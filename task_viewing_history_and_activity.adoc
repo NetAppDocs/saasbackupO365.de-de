@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_history_and_activity.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, history, activity, log 
+summary: Sie können ein Protokoll der SaaS Backup-Aktivitäten und des Jobverlaufs anzeigen oder herunterladen. 
+---
+= Anzeigen des Jobverlaufs und des Aktivitätsprotokolls
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup für Microsoft 365 speichert ein Protokoll Ihrer Jobhistorie und ein Protokoll aller Aktivitäten im SaaS Backup.
+
+
+
+== Anzeigen des Jobverlaufs
+
+Über NetApp SaaS Backup für Office 365 können Sie Berichte zu Ihrer gesamten Aufgabenhistorie anzeigen oder herunterladen. Sie können Ihre Suche nach Jobtyp, Dienst, Startzeit, Endzeit und Abschlussstatus filtern.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *Reporting*. Eine Liste aller SaaS Backup Jobs wird auf der Registerkarte *Jobverlauf* angezeigt.
+. Um die Ergebnisse zu filtern, klicken Sie auf *Filter*.
+. Klicken Sie auf das Dropdown-Menü *Auswählen* und wählen Sie einen Filter aus. Sie können nach Richtlinie, Service, Typ oder Status filtern. Nach Auswahl eines Filters wird ein Suchfeld angezeigt.
+. Geben Sie Ihre Suchkriterien ein.
+. Wenn Sie weitere Filter hinzufügen möchten, klicken Sie auf *Filter hinzufügen*.
+. Klicken Sie Auf *Filter Anwenden*. Die Filterergebnisse werden angezeigt.
+. Klicken Sie auf einen beliebigen Job, um die Ansicht zu erweitern, um weitere Jobdetails anzuzeigen.
+
+
+
+
+== Das Aktivitätsprotokoll anzeigen
+
+Ein Protokoll wird von allen Aktivitäten gespeichert, die innerhalb von SaaS Backup für Microsoft 365 durchgeführt werden. Das Protokoll enthält das Datum jeder durchgeführten Aktion sowie den Namen des Benutzers, der die Aktion ausgeführt hat. Sie können das Aktivitätsprotokoll nach Service und Ereignis filtern. Wenn Sie beispielsweise alle Wiederherstellungsvorgänge für Microsoft Exchange Online anzeigen müssen, können Sie das Aktivitätsprotokoll filtern, um die entsprechenden Ergebnisse anzuzeigen.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *Reporting*.
+. Klicken Sie auf die Registerkarte *Aktivitätsprotokoll*. Eine Liste aller SaaS Backup für Microsoft 365 Aktivitäten wird angezeigt.
+. Um die Ergebnisse zu filtern, klicken Sie auf *Filter*.
+. Klicken Sie auf das Dropdown-Menü *Auswählen* und wählen Sie einen Filter aus. Sie können nach Service oder Ereignis filtern. Nach Auswahl eines Filters wird ein Suchfeld angezeigt.
+. Geben Sie Ihre Suchkriterien ein.
+. Wenn Sie weitere Filter hinzufügen möchten, klicken Sie auf *Filter hinzufügen*.
+. Klicken Sie Auf *Filter Anwenden*.
++
+Die Filterergebnisse werden angezeigt.
+
+

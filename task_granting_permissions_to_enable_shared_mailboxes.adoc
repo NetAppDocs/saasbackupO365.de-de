@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html 
+keywords: netapp, saas backup, microsoft 365, grant, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
+summary: Innerhalb von NetApp SaaS Backup für Microsoft 365 können Sie Berechtigungen zur Aktivierung von freigegebenen Mailboxen erteilen. 
+---
+= Erteilen Sie Berechtigungen für die Aktivierung von freigegebenen Mailboxen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Berechtigungen zum Aktivieren von freigegebenen Mailboxen innerhalb von NetApp SaaS Backup für Microsoft 365 erteilen.
+
+.Schritte
+. Klicken Sie Auf image:services.gif["Screenshot der Service-Schaltfläche"] Im linken Navigationsbereich.
+. Klicken Sie auf den Link Microsoft 365.
++
+image:mso365_settings.gif["Screenshot der Microsoft 365 Schaltfläche"]
+
+. Klicken Sie Auf *Zustimmung Erteilen*.
++
+image:grant_consent.gif["Screenshot des Symbols „Zustimmung erteilen“"]
+
++
+Sie werden zur Authentifizierung auf die Azure-Autorisierungsseite umgeleitet.
+
+. Wählen Sie Ihr Mandantenkonto aus.
+. *Die Berechtigungen akzeptieren*. Ihre freigegebenen Postfächer werden während des nächsten geplanten *Auto Sync* erkannt oder Sie können eine *Sync Now* durchführen. Wenn Sie *Jetzt synchronisieren*, dauert es ein paar Minuten, bis Ihre gemeinsamen Mailboxen entdeckt werden.
+. Um auf freigegebene Postfächer nach einem *Auto Sync* oder einem *Sync Now* zuzugreifen, gehen Sie wie folgt vor:
++
+.. Klicken Sie Auf image:services.gif["Screenshot der Service-Schaltfläche"] Im linken Navigationsbereich.
+.. Klicken Sie Auf *Microsoft Exchange Online*.
+.. Klicken Sie auf die Anzahl ungesicherter Mailboxen.
+.. Klicken Sie auf die Registerkarte *Shared*.
+
+
+

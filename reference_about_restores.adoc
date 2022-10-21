@@ -1,0 +1,347 @@
+---
+sidebar: sidebar 
+permalink: reference_about_restores.html 
+keywords: netapp, saas backup, microsoft 365, restores, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: SaaS Backup für Microsoft 365 bietet Restore-Optionen auf hoher und granularer Ebene für jeden Service. 
+---
+= Allgemeines zu Wiederherstellungen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Mit SaaS Backup für Microsoft 365 können Sie grundlegende und granulare Restores für Exchange Online, SharePoint Online, OneDrive for Business und Microsoft 365 Groups und Teams durchführen.
+
+Erfahren Sie mehr zur Durchführung von Restores auf hoher und granularer Ebene:
+
+* link:task_performing_high_level_restore.html["Durchführen einer Wiederherstellung auf hoher Ebene"]
+* link:task_performing_granular_level_restore_exchange.html["Durchführung einer granularen Wiederherstellung für Exchange Online"]
+* link:task_performing_granular_level_restore_sharepoint.html["Führen Sie ein Restore auf granularer Ebene für SharePoint Online durch"]
+* link:task_performing_granular_level_restore_onedrive.html["Durchführung einer granularen Wiederherstellung für OneDrive for Business"]
+* link:task_performing_granular_level_restore_teams.html["Durchführung einer granularen Wiederherstellung für Gruppen und Teams"]
+
+
+Die folgenden Tabellen zeigen die allgemeinen Restore-Optionen, die pro Service unterstützt werden und wo die wiederhergestellten Daten in SaaS Backup zu finden sind.
+
+
+NOTE: Wenn Ihre Daten gelöscht oder deprovisioniert werden, können Sie sie an einen anderen Ort (Mailbox, Standort, MySite, Gruppe oder Team) wiederherstellen oder die Daten exportieren. Sie können nicht an demselben Speicherort wiederherstellen.
+
+
+
+== Exchange Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Elementtyp | Wiederherstellung derselben Mailbox | Wiederherstellung in eine andere Mailbox | Export in eine PST | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Einzelne Mailbox
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| Exchange Online > Mailboxen – Benutzer/Freigegeben/Archiv 
+
+
+ a| 
+Mehrere Mailboxen
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| Exchange Online > Mailboxen – Benutzer/Freigegeben/Archiv 
+
+
+ a| 
+Mailbox-Inhalt
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| Exchange Online > Mailboxen – Benutzer/freigegeben/Archiv > <Benutzername> 
+|===
+
+
+== SharePoint Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Elementtyp | Wiederherstellung auf demselben Standort | Wiederherstellung an einem anderen Standort | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Nur eine SharePoint Site
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites 
+
+
+ a| 
+Mehrere SharePoint Sites
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| SharePoint Online > Sites 
+
+
+ a| 
+Inhalt der SharePoint-Website
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> 
+
+
+ a| 
+Einzelne SharePoint Site, bei der nur Rollen wiederhergestellt sind
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+| SharePoint Online > Sites 
+
+
+ a| 
+Einzelne Unterwebsite
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> 
+
+
+ a| 
+Mehrere Subsites
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> 
+
+
+ a| 
+Inhalt der Unterwebsite von SharePoint
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> 
+
+
+ a| 
+Einzelne/mehrere Subsites mit aktivierten Restore-Funktionen
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+| SharePoint Online > Sites > <Site Name> 
+|===
+
+
+== OneDrive for Business
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Elementtyp | Wiederherstellung auf derselben MySite | Wiederherstellung auf einer anderen MySite | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Einzellaufwerk
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| OneDrive for Business > MySites 
+
+
+ a| 
+Mehrere Laufwerke
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Nein
+| OneDrive for Business > MySites 
+
+
+ a| 
+Inhalte für einzelne Laufwerke
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| OneDrive for Business > MySites > <OneDrive user> 
+|===
+
+
+== Gruppen
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Elementtyp | Wiederherstellung in derselben Gruppe | In andere Gruppe wiederherstellen | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Einzelne Gruppe
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| Office 365 Groups > Groups 
+
+
+ a| 
+Mehrere Gruppen
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+| Office 365 Groups > Groups 
+
+
+ a| 
+Inhalt gruppieren
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| Office 365 Groups > Groups > <Group Name> 
+
+
+ a| 
+Mailbox-Inhalt
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+| Office 365 Gruppen > Gruppen > (Gruppen-E-Mail) > Gruppenname 
+
+
+ a| 
+SharePoint-Inhalte
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+| Office 365 Groups > Groups > <Group Name> <Site Name> 
+|===
+
+
+== Teams Aus
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Elementtyp | Restore ins gleiche Team | Restore in ein anderes Team | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Ein einziges Team
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| Office 365 Gruppen > Teams 
+
+
+ a| 
+Mehrere Teams
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+| Office 365 Gruppen > Teams 
+
+
+ a| 
+Teaminhalte
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| Office 365 Groups > Teams > <Team Name> 
+
+
+ a| 
+Mailbox-Inhalt
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+| Office 365 Groups > Teams > (Team-E-Mail) > Team-Name 
+
+
+ a| 
+SharePoint-Inhalte
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+| Office 365 Groups > Teams > <Team Name> <Site Name> 
+
+
+ a| 
+Kanäle
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+| Office 365 Groups > Teams > (Team-E-Mail) 
+|===

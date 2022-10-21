@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_rules.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, removing, rules 
+summary: Wenn Sie keine bestehende Regel mehr benötigen, können Sie sie löschen. Wenn Sie außerdem eine Sicherheitsgruppe löschen müssen, die in einer Regel verwendet wird, müssen Sie die Regel mit der Sicherheitsgruppe löschen, bevor die Sicherheitsgruppe entfernt werden kann. 
+---
+= Regeln löschen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie keine bestehende Regel mehr benötigen, können Sie sie löschen. Wenn Sie außerdem eine Sicherheitsgruppe löschen müssen, die in einer Regel verwendet wird, müssen Sie die Regel mit der Sicherheitsgruppe löschen, bevor die Sicherheitsgruppe entfernt werden kann.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte Zahl *UNGESCHÜTZT* in der Box des Dienstes, für den Sie Regeln erstellen möchten.
++
+image:number_protected_unprotected.gif[""]
+
+. Klicken Sie Auf *Filter*.
++
+image:filter.gif["Screenshot der Dropdown-Menü-Schaltfläche „Filter“"]
+
+. Klicken Sie Auf *Regeln*. Die vorhandenen Regeln werden angezeigt.
+. Klicken Sie Auf image:trash_can_icon.gif["Screenshot des Löschsymbols"] Um die Regel zu löschen. Der Status der Elemente, auf die die Regel bereits angewendet wurde, wird beim Löschen der Regel nicht geändert.
+

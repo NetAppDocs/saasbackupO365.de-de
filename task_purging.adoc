@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_purging.html 
+keywords: netapp, saas backup, microsoft 365, purge, purged, purging, site collection, groups 
+summary: Kunden haben die Möglichkeit, ihren Service in NetApp SaaS Backup auf unterschiedliche Weise zu managen. Dazu zählen die Aktivierung neuer Services, das Deaktivieren vorhandener Services, das Löschen von Daten und das Abbrechen eines Jobs. 
+---
+= Löschen Sie einen Benutzer, eine Websitesammlung oder eine Microsoft 365-Gruppe
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können alle Daten, die einem Benutzer, einer Websitesammlung oder einer Microsoft 365-Gruppe zugeordnet sind, vollständig entfernen. Gelöscht Daten können sieben Tage lang wiederhergestellt werden. Nach sieben Tagen werden die Daten dauerhaft gelöscht und die Benutzerlizenz wird automatisch freigegeben.
+
+.Schritte
+. Klicken Sie auf das Konfigurationssymbol image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben Ihrer SaaS Backup Benutzer-id oben links.
+. Wählen Sie *KONTOEINSTELLUNGEN*.
+. KLICKEN SIE AUF *BEIBEHALTEN UND LÖSCHEN*.
+. Wählen Sie unter *Daten löschen* im Dropdown-Menü die Option *Art des Dienstes* (Exchange, OneDrive oder SharePoint) aus.
+. Suchen Sie nach dem Benutzer, der Websitesammlung oder der Microsoft 365-Gruppe, die Sie löschen möchten. Geben Sie für Microsoft Exchange Online oder OneDrive for Business den Namen des Benutzers oder der Microsoft 365-Gruppe ein. Geben Sie für SharePoint Online den Namen der Websitesammlung ein. + HINWEIS: Wenn der Benutzer eine Archiv-Mailbox hat, wird der Benutzername der Archiv-Mailbox durch "in-Place Archive" vorfixiert.
+. Wenn das Suchergebnis wieder angezeigt wird, klicken Sie auf das image:bluecircle_icon.gif["Blaues Pluszeichen-Symbol"] So wählen Sie den Benutzer, die Websitesammlung oder die Microsoft 365-Gruppe aus.
+. Klicken Sie Auf *Speichern*.
+. Klicken Sie auf *Ja*, um zu bestätigen, dass Sie die Daten löschen möchten.
+

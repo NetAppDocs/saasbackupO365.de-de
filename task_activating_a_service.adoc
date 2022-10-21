@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_activating_a_service.html 
+keywords: netapp, saas backup, microsoft 365, activate, activating, service, services 
+summary: Bei Bedarf können Sie einen oder mehrere SaaS Backup für Microsoft 365-Dienste aktivieren. Microsoft Exchange Online oder Microsoft SharePoint Online müssen aktiviert sein, bevor Sie Microsoft 365-Gruppen aktivieren können. 
+---
+= Aktivieren Sie einen Dienst
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Bei Bedarf können Sie einen oder mehrere SaaS Backup für Microsoft 365-Dienste aktivieren. Microsoft Exchange Online oder Microsoft SharePoint Online müssen aktiviert sein, bevor Sie Microsoft 365-Gruppen aktivieren können.
+
+.Schritte
+. Klicken Sie Auf image:services.gif["Screenshot der Service-Schaltfläche"] Im linken Navigationsbereich.
+. Klicken Sie auf den Link Microsoft 365.
++
+image:mso365_settings.gif["Screenshot der Microsoft 365 Schaltfläche"]
+
+. Klicken Sie neben dem Dienst, den Sie aktivieren möchten, auf *Aktivieren*.
+. Klicken Sie Auf *Bestätigen*.
+

@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_updating_admin_roles_assigned_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, update, updating, changing 
+summary: Wenn ein Update an den Administratorrollen eines Benutzers vorgenommen wird, wird der Benutzer automatisch von SaaS Backup für Microsoft 365 abgemeldet. Wenn sich der Benutzer wieder anmeldet, werden Aktualisierungen der Administratorrolle im Konto des Benutzers angezeigt. 
+---
+= Aktualisieren von Administratorrollen, die Benutzerkonten zugewiesen sind
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn ein Update an den Administratorrollen eines Benutzers vorgenommen wird, wird der Benutzer automatisch von SaaS Backup für Microsoft 365 abgemeldet. Wenn sich der Benutzer wieder anmeldet, werden Aktualisierungen der Administratorrolle im Konto des Benutzers angezeigt.
+
+.Schritte
+. Klicken Sie auf das Einstellungssymbol image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben Ihrer Benutzer-ID oben links auf dem Bildschirm.
+. Klicken Sie auf *KONTOEINSTELLUNGEN*.
+. Klicken Sie auf *ROLLENVERWALTUNG*.
+. Klicken Sie neben dem Benutzernamen, den Sie aktualisieren möchten, auf *Benutzer aktualisieren*.
+. Klicken Sie auf das Dropdown-Menü, um die Rolle auszuwählen. Sie können einem Benutzer eine oder mehrere Rollen zuweisen.
+. Klicken Sie Auf *Bestätigen*.
+

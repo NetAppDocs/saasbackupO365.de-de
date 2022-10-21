@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deprovisioned.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+summary: Sie können eine Liste der gelöschten Mailboxen oder Benutzerkonten anzeigen. 
+---
+= Zeigen Sie eine Liste der debereitgestellten Elemente an
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können eine Liste der Mailboxen oder Benutzerkonten anzeigen, die deprovisioniert wurden.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *SERVICES*.
+. Klicken Sie im gewünschten Dienst auf die Anzahl der ungeschützten Elemente.
+. Klicken Sie auf die Registerkarte *DEPROVISIONIERT*.
+

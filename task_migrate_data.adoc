@@ -1,0 +1,85 @@
+---
+sidebar: sidebar 
+permalink: task_migrate_data.html 
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export 
+summary: Mit SaaS Backup für Microsoft 365 können Sie eine Datenmigration zu Amazon S3 oder Microsoft Azure Blob Storage anfordern, der sich auf das Ende Ihrer Lizenz vorbereitet. 
+---
+= Datenmigration
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Zur Vorbereitung auf das Ende Ihrer Lizenz mit SaaS Backup für Microsoft 365 können Sie eine Datenmigration von Amazon S3 zu einem mandantenfähigen Amazon S3 Storage oder von Microsoft Azure Blob zu einem Microsoft Azure Blob Storage anfordern.
+
+
+NOTE: Die Migration von Amazon S3 zu Microsoft Azure Blob Storage oder von Microsoft Azure Blob zu Amazon S3 Storage wird nicht unterstützt.
+
+Nach Abschluss der Datenmigration können Sie Ihre Daten mit dem NetApp SaaS Backup Bulk Export Tool exportieren. Melden Sie sich bei an link:https://mysupport.netapp.com/site/tools["Die Seite NetApp Support Tools"] Und suchen Sie das NetApp SaaS Backup Bulk Export Tool.
+
+
+NOTE: Die Datenmigration erfolgt nach Ablauf der Lizenz. Alle Mandanten sollten jegliche Aktivitäten auf ihren SaaS Backup Accounts vermeiden, um Datenabweichungen und Metadatenabweichungen bei der Datenmigration zu vermeiden. Nach Abschluss der Datenmigration werden alle geplanten Backups für den Mandanten deaktiviert.
+
+*Anforderung*: Um eine Datenmigration anzufordern, melden Sie sich mit den Anmeldedaten des Mandantenkontos mit den Berechtigungen des Global Administrator an. Andere Benutzerrollen können nicht auf die Registerkarte Datenmigration in der Benutzeroberfläche zugreifen.
+
+*Empfehlung*: Sie sollten den Ziel-Storage mit ausreichender Kapazität bereitstellen, um alle Kundendaten zu speichern und um 10 % mehr Kapazität als Puffer für Metadaten-Speicher zu erhöhen.
+
+.Schritte
+. Gehen Sie zu *Kontoeinstellungen* image:gear_icon.png["Zahnrad-Symbol"].
+. Wählen Sie die Registerkarte *Datenmigration* aus.
+. Geben Sie unter *Speicherdetails* Informationen in die Felder ein:
++
+[cols="20,20"]
+|===
+| Amazon S3 | Microsoft Azure 
+
+
+| Bucket-Name | Kontoname 
+
+
+| Region | Containername 
+
+
+| Zugriffsschlüssel | Access Point 
+
+
+| Geheimer Schlüssel | Zugriffsschlüssel 
+
+
+|  | Region 
+|===
++
+
+NOTE: Microsoft Azure Benutzer müssen für den in Storage-Details bereitgestellten Container „Blob“ die öffentliche Zugriffsebene festlegen.
+
+. Wählen Sie *Verbindung Testen*.
++
+Ein grünes Häkchen zeigt an, dass die Verbindung ordnungsgemäß funktioniert.
+
+. Wählen Sie unter *Zustimmung* das Feld aus, um den Bedingungen der Datenmigration zuzustimmen, und wählen Sie *Absenden*.
++
+Sie haben die Details erfolgreich gespeichert. Die Mieter-ID ist jetzt in *Migrationsstatus* sichtbar.
+
++
+
+TIP: Sie benötigen die Mandanten-ID, wenn Sie Ihre Daten mit dem NetApp SaaS Backup Bulk Export Tool exportieren.
+
+
+
+*Zusätzliche Schritte für SaaS Backup bereitgestellte Amazon S3 Buckets* Nachdem Sie Ihre Zustimmung erteilt haben, erscheinen Richtlinien- und Richtlinienhinweise nun unter der Zustimmung. Führen Sie die nächsten Schritte aus, um die Anfrage zur Datenmigration abzuschließen.
+
+. Überprüfen und kopieren Sie die Richtlinie.
++
+image:policy-note-variables.png["Richtlinie mit hervorgehobenen IAM-Benutzer- und Zielvariablen kopiert"]
+
+. Wechseln Sie zu Ihrem Amazon S3 Konto.
+. Hängen Sie die in *Storage Details* angegebene Richtlinie an den Amazon S3 Ziel-Bucket an.
+. Kehren Sie zum Register *Datenmigration* unter *Kontoeinstellungen* in SaaS Backup für Microsoft 365 zurück.
+. Wählen Sie unter * Policy Confirmation* das Feld aus, um zu bestätigen, dass Sie die Richtlinie in den Ziel-Bucket hochgeladen haben, und wählen Sie *Submit* aus. Ein grünes Häkchen gibt an, dass die Anfrage für die Datenmigration abgeschlossen ist und die Datenmigration sich jetzt in die Warteschlange einreihen.
+
+
+Informationen zum Fortschritt Ihrer Migration finden Sie unter * Migrationsstatus*. Die Migrationsdauer ist von mehreren Faktoren abhängig, z. B. der Datenmenge und der Anzahl der Lizenzen, über die Sie verfügen.

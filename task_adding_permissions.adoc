@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_adding_permissions.html 
+keywords: netapp, saas backup, microsoft 365, add, added, adding, permissions, service, account 
+summary: Innerhalb von NetApp SaaS Backup für Microsoft 365 können Sie Ihre Service-Konten verwalten, neue Konten ermitteln und Account-Benachrichtigungen festlegen. 
+---
+= Fügen Sie Berechtigungen zu Servicekonten hinzu
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Ihre Dienstkonten verwalten, neue Konten ermitteln und Kontobenachrichtigungen festlegen.
+
+Bei Bedarf können Sie einem Service-Konto-Benutzer Berechtigungen hinzufügen. Mit Servicekonten können gleichzeitige Backups effizient durchgeführt werden.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf Dienste.image:services.gif["Screenshot der Service-Schaltfläche"]
+. Klicken Sie auf den Link Microsoft 365.image:mso365_settings.gif["Screenshot der Microsoft 365 Schaltfläche"]
+. Klicken Sie auf das Symbol *+* neben *Servicekonten verwalten*.
+. Klicken Sie auf *Bestätigen*, um zur Anmeldeseite von Microsoft 365 umgeleitet zu werden, um Berechtigungen zu erteilen.
+

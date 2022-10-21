@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, security, groups 
+summary: Wenn eine Sicherheitsgruppe in einer benutzerdefinierten Regel verwendet wird, kann sie nicht gelöscht werden. Sie müssen die benutzerdefinierte Regel entfernen und dann die Sicherheitsgruppe löschen. 
+---
+= Löschen von Sicherheitsgruppen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn eine Sicherheitsgruppe in einer benutzerdefinierten Regel verwendet wird, kann sie nicht gelöscht werden. Sie müssen die benutzerdefinierte Regel entfernen und dann die Sicherheitsgruppe löschen.#deleting-rules,Regeln werden gelöscht
+
+.Schritte
+. Klicken Sie auf *KONTOEINSTELLUNGEN*.
+. Klicken Sie auf *SICHERHEITSGRUPPEN*.
+. Klicken Sie auf das Löschsymbol neben der Gruppe, die Sie entfernen möchten.
+

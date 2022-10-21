@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_browsing_backups.html 
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups 
+summary: Sie können Ihre Backups in allen Ihren Microsoft 365 Services durchsuchen. 
+---
+= Backups durchsuchen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können geschützte Instanzen in aktuellen Backups oder in allen Ihren Backups für Microsoft 365 Exchange, SharePoint, OneDrive for Business und Groups durchsuchen.
+
+
+NOTE: Die Standardeinstellung für die Suche ist *Letzte 5 Tage Backup*. Wenn Sie 5 Tage auswählen, werden nur gesicherte Objekte in den letzten 5 Tagen angezeigt. Sie können den Zeitbereich nach Bedarf ändern.
+
+Überprüfen Sie das Datum links im Dropdown-Menü „Zeitbereich“, um sicher zu sein, dass Sie die gewünschten Informationen finden.
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png["Das Bild hebt Datum und Anzahl für das Durchsuchen einer Benutzer-Mailbox hervor"]
+
+.Schritte
+. Wählen Sie im *Dashboard* den Dienst aus, nach dem Sie nach Backups suchen möchten, und wählen Sie dann geschützte Instanzen aus.
++
+image:number_protected_unprotected_highlight_protected.gif["Geschützte Exchange-Instanzen werden hervorgehoben"]
+
+. Wählen Sie das Konto aus, das Sie durchsuchen möchten.
+. Wählen Sie den Zeitbereich für die gesicherten Elemente aus, die Sie durchsuchen möchten.
++
+image:date_range_browse_feature.gif["Bild zeigt Optionen für den Zeitbereich zum Durchsuchen von Backups an"]
+
++
+
+NOTE: *Backup-Verlauf anzeigen* zeigt eine Kalenderansicht Ihrer Backups an. Wenn Sie *Backup-Verlauf anzeigen* auswählen und ein Datum vor dem aktuellen Tag auswählen, ändert sich dadurch der Zeitbereich für die Backups, die angezeigt werden. Wenn Sie z. B. heute den 8. Oktober wählen, wählen Sie 5. Oktober in der Kalenderansicht aus, und wählen Sie dann aus, um die letzten 5 Tage ab dem 5. Oktober zu durchsuchen, die Artikel, die Sie durchsuchen können, werden vom 1-5. Oktober sein.
+
+. Klicken Sie auf die Art der Elemente, die Sie anzeigen möchten: Mail, Kalender, Aufgaben, Kontakte, Dateien, Inhalt oder anderes.
+. Durchsuchen Sie die gesicherten Elemente.
+

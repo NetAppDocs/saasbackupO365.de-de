@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_restore_file_locations.html 
+keywords: netapp, saas backup, microsoft 365, find, viewing, jobs, log, restore, file, locations 
+summary: Sie können ein Protokoll von Titel und Speicherort der wiederhergestellten Dateien und Ordner herunterladen. 
+---
+= Suchen Sie wiederhergestellte Dateien
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn einige Dateien oder Ordner wiederhergestellt sind, befinden sie sich in einem neu erstellten Wiederherstellungsordner. Damit Sie Ihre wiederhergestellten Elemente leicht finden können, können Sie eine Excel-Datei mit den Namen und Speicherorten Ihrer wiederhergestellten Dateien und Ordner herunterladen.
+
+.Schritte
+. Klicken Sie Auf image:jobs_button.gif["Screenshot der Jobs Schaltfläche"] Im linken Navigationsbereich.
+. Klicken Sie unter *Zuletzt abgeschlossene Jobs* auf den Job, für den Sie wiederhergestellte Dateien finden möchten.
+. Klicken Sie oben rechts auf *Download*. Eine Excel-Datei wird lokal heruntergeladen, die die Namen und Speicherorte der wiederhergestellten Dateien für den jeweiligen Job enthält.
+

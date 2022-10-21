@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_adding_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, security, groups, add, adding, creating 
+summary: Sicherheitsgruppen können als Filteroptionen verwendet werden, um Ihre Daten anzuzeigen und Regeln zu erstellen. 
+---
+= Fügen Sie Sicherheitsgruppen hinzu
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sicherheitsgruppen können als Filteroptionen verwendet werden, um Ihre Daten anzuzeigen und Regeln zu erstellen.
+
+Sie können bis zu 3 Sicherheitsgruppen hinzufügen. Sie können dann Ihre Sicherheitsgruppen als Filteroptionen im SaaS Backup verwenden.
+
+Neue Sicherheitsgruppen müssen durch AutoSync oder eine manuelle Synchronisierung erkannt werden, bevor sie hinzugefügt werden können.https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide["Erstellen, bearbeiten oder löschen Sie eine Sicherheitsgruppe im Admin Center"].
+
+.Schritte
+. Klicken Sie auf *KONTOEINSTELLUNGEN*.
+. Klicken Sie auf *SICHERHEITSGRUPPEN*.
+. Geben Sie im Suchfeld den Namen der Sicherheitsgruppe ein, die Sie hinzufügen möchten.
+. Klicken Sie Auf *Hinzufügen*.
+

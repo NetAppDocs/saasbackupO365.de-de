@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_assigning_admin_roles_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, assign, assigning, role-based accounts, administrative roles, privileges, granting, user, users, user accounts 
+summary: Sie können Benutzerkonten Administratorrollen zuweisen, um ausgewählten Benutzern Administratorrechte für einen oder mehrere Dienste zu gewähren. 
+---
+= Zuweisen von Administratorrollen zu Benutzerkonten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Benutzerkonten Administratorrollen zuweisen, um ausgewählten Benutzern Administratorrechte für einen oder mehrere Dienste zu gewähren.
+
+Sie können Benutzern die folgenden Rollen zuweisen:
+
+* Global Tenant: Gewährt allen Services, Speicherzielen und Lizenzaktualisierungen Administratorrechte (Erneuerung/Upgrade).
+* Exchange Administrator: Gewährt nur Microsoft Exchange Online Administratorrechte. Andere Dienste können nicht angezeigt oder geändert werden.
+* OneDrive Administrator: Gewährt nur Microsoft OneDrive for Business Administratorrechte. Andere Dienste können nicht angezeigt oder geändert werden.
+* SharePoint Administrator: Erteilt nur Microsoft SharePoint Online Administratorrechte. Andere Dienste können nicht angezeigt oder geändert werden.
+
+
+.Schritte
+. Klicken Sie auf das Einstellungssymbol image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben Ihrer Benutzer-ID oben links auf dem Bildschirm.
+. Klicken Sie auf *KONTOEINSTELLUNGEN*.
+. Klicken Sie auf *ROLLENVERWALTUNG*.
+. Klicken Sie auf das image:bluecircle_icon.gif["Screenshot des Symbols, auf das die Benutzerrollenoptionen angezeigt werden sollen"] Symbol.
+. Geben Sie die E-Mail-Adresse für den Benutzer ein, den Sie hinzufügen möchten.
+. Klicken Sie auf das Dropdown-Menü, um die Rolle auszuwählen. Sie können einem Benutzer eine oder mehrere Rollen zuweisen.
+. Klicken Sie Auf *Bestätigen*.
+

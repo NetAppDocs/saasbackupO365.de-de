@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_applying_rules.html 
+keywords: netapp, saas backup, microsoft 365, creating, rules, managing, adding, apply, applied, applying 
+summary: Sie können vorhandene Regeln auf ungeschützte Elemente anwenden, die Reihenfolge ändern, in der Regeln angewendet werden, und Regeln löschen. 
+---
+= Vorhandene Regeln anwenden
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Anhand von Regeln können Sie Benutzer automatisch auf eine vorausgewählte Backup-Tier basierend auf vordefinierten Kriterien verschieben.
+
+Sie können vorhandene Regeln auf ungeschützte Elemente anwenden, die Reihenfolge ändern, in der Regeln angewendet werden, und Regeln löschen.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte Zahl *UNGESCHÜTZT* in der Box des Dienstes, für den Sie Regeln erstellen möchten.
++
+image:number_protected_unprotected.gif[""]
+
+. Klicken Sie Auf *Filter*.
++
+image:filter.gif["Screenshot der Dropdown-Menü-Schaltfläche „Filter“"]
+
+. Klicken Sie Auf *Regeln*. Die vorhandenen Regeln werden angezeigt.
+. Klicken Sie auf *Jetzt anwenden*, um die Regel auf vorhandene ungeschützte Elemente anzuwenden.
+

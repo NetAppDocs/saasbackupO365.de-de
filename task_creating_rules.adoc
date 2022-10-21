@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_rules.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, rules, user, users, applied 
+summary: Anhand von Regeln können Sie Benutzer automatisch auf eine vorausgewählte Backup-Tier basierend auf vordefinierten Kriterien verschieben. 
+---
+= Neue Regeln erstellen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Anhand von Regeln können Sie Benutzer automatisch auf eine vorausgewählte Backup-Tier basierend auf vordefinierten Kriterien verschieben.
+
+Sie können Regeln für Microsoft Exchange Online, OneDrive for Business, SharePoint Online und Microsoft Office 365 Gruppen erstellen.
+
+Sie müssen einen benutzerdefinierten Filter auf Ihre Daten anwenden, bevor Sie eine Regel erstellen können. Angewendete Filter werden unterhalb des Symbols *Filter* angezeigt. NetApp SaaS Backup für Microsoft 365 Standardfilter werden grau angezeigt. Benutzerdefinierte Filter werden hellblau angezeigt.image:rules.gif["Beispiel für benutzerdefinierten Filter und definierten SaaS-Backup-Filter zum Erstellen von Regeln"]
+
+#creating-user-defined-filter,Erstellen Sie einen benutzerdefinierten Filter
+
+Sie können mehrere Regeln erstellen. Die Regeln werden in der Reihenfolge angewendet, in der sie in der Liste *Regeln verwalten* angezeigt werden.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte Zahl *UNGESCHÜTZT* in der Box des Dienstes, für den Sie Regeln erstellen möchten.
++
+image:number_protected_unprotected.gif[""]
+
++
+Wenn kein benutzererstellter Filter angewendet wird, image:create_rule.gif["Screenshot der Schaltfläche „Regel erstellen“"] Wird nicht angezeigt.
+
+. Klicken Sie Auf *Filter*.
++
+image:filter.gif["Filtertaste"]
+
+. Klicken Sie auf das Dropdown-Menü *Auswählen* und wählen Sie Ihren Filter aus. Ein Suchfeld wird angezeigt.
+. Geben Sie Ihre Suchkriterien ein.
+. Klicken Sie Auf *Filter Anwenden*.
+. Klicken Sie Auf *Regel Erstellen*.
+. Geben Sie einen Namen für die Regel ein.
+. Wählen Sie für *Zielgruppe* die Ebene aus, in die Benutzer verschoben werden sollen, die die Kriterien der Regel erfüllen.
+. Wählen Sie *auf vorhandene Elemente anwenden* aus, wenn die Regel sofort auf alle ungeschützten Elemente angewendet werden soll. Wenn diese Option nicht ausgewählt ist, wird die Regel bei der nächsten Entdeckung neuer Elemente auf neu entdeckte Elemente und ungeschützte Elemente angewendet.
+. Wenn Sie mehrere Regeln haben, können Sie auf das klicken image:up_down_rules_icon.gif["Schaltfläche zum Verschieben von Regeln in der Priorität nach oben oder unten"] Um eine Regel in der Liste nach oben oder unten zu verschieben. Die Regeln werden in der Reihenfolge angewendet, in der sie in der Liste angezeigt werden.
+

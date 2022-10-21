@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_backup_or_changing_frequency.html 
+keywords: netapp, saas backup, microsoft 365, schedule, scheduling, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+summary: Derselbe Prozess folgt, um ein neues Backup zu planen oder es in die Frequenz eines aktuellen Backups zu ändern. 
+---
+= Planen Sie ein Backup oder ändern Sie die Backup-Häufigkeit
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Ihre ungeschützten Daten sichern, indem Sie sie einer Backup-Richtlinie zuweisen. Wenn ungeschützte Daten einer Sicherungsrichtlinie zugewiesen werden, wird dieser in einen *AUSSTEHEND*-Status verschoben, bis das nächste geplante Backup für die zugewiesene Richtlinie erfolgt, nach dem sie in einen *GESCHÜTZTEN*-Zustand verschoben wird. Wenn Sie die Backup-Häufigkeit von geschützten Daten ändern möchten, können Sie die Daten einer anderen Backup-Richtlinienebene zuweisen.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte Zahl *GESCHÜTZT* oder *UNGESCHÜTZT* in der Box des Dienstes, den Sie ändern möchten. Wenn Sie die Sicherungshäufigkeit von geschützten Daten ändern möchten, klicken Sie auf *PROTECTED*. Wenn Sie neu entdeckte Mailboxen, Sites oder MySites sichern möchten, wählen Sie *UNGESCHÜTZT*.
++
+image:number_protected_unprotected.gif[""]
+
+. Wählen Sie Ihre Backup-Optionen aus.
++
+.. Für Exchange
++
+*** Wenn Sie freigegebene Postfächer sichern (nur Tier 3), klicken Sie auf die Registerkarte *SHARED*.
+*** Wenn Sie Archivmailboxen sichern (nur Tier 3), klicken Sie auf die Registerkarte *ARCHIVE*.
+*** Wenn Sie normale Postfächer sichern oder ändern, bleiben Sie auf der Registerkarte *USER*.
+
+
+.. Für SharePoint
++
+*** Wenn Sie die Sicherungsrichtlinie für Standorte sichern oder ändern, bleiben Sie auf der Registerkarte *SITES*.
+
+
+.. Für OneDrive
++
+*** Wenn Sie die Sicherungsrichtlinie für Benutzer sichern oder ändern, bleiben Sie auf der Registerkarte *USER*.
+
+
+.. Für Microsoft 365 Gruppen
++
+*** Wenn Sie Gruppen sichern (nur Tier 3), bleiben Sie auf der Registerkarte *GROUPS*.
+*** Wenn Sie Teams sichern (nur Tier 3), klicken Sie auf die Registerkarte *TEAMS*.
+
+
+
+
+. Wählen Sie die Elemente aus, die gesichert werden sollen.
+. Klicken Sie auf das Menü *Gruppen*.
++
+image:groups_menu.gif["Gruppen-Menü"]
+
+. Wählen Sie die neue Richtlinienebene für das Backup aus.
++
+
+NOTE: Microsoft 365-Gruppen und Archivmailboxen können nur in die Tier-3-Richtlinie verschoben werden.
+
+. Klicken Sie Auf *Anwenden*.
+

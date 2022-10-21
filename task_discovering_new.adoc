@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_discovering_new.html 
+keywords: netapp, saas backup, microsoft 365, discover, discovery, discovering, new, mailboxes, sites, groups, teams, shared, archive 
+summary: Innerhalb von NetApp SaaS Backup für Microsoft 365 können Sie Ihre Service-Konten verwalten, neue Konten ermitteln und Account-Benachrichtigungen festlegen. 
+---
+= Erkennung neuer Mailboxen, Sites und Gruppen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Neue Postfächer (einschließlich freigegebene und archivierte Postfächer), Standorte, Gruppen und Teams, die von SaaS Backup entdeckt werden müssen, müssen zwischen SaaS Backup und Ihrem Microsoft 365 Konto synchronisiert werden. Standardmäßig erfolgt die Synchronisierung automatisch alle 24 Stunden. Wenn Sie jedoch Änderungen vornehmen und die Erkennung vor dem nächsten geplanten *Auto Sync* durchführen möchten, können Sie eine sofortige Synchronisierung starten.
+
+.Schritte
+. Klicken Sie Auf image:services.gif["Screenshot der Service-Schaltfläche"] Im linken Navigationsbereich.
+. Klicken Sie auf das Symbol für die Microsoft 365-Einstellungen.image:mso365_settings.gif["Screenshot der Microsoft 365 Schaltfläche"]
+. Klicken Sie neben dem Dienst, den Sie synchronisieren möchten, auf *Jetzt synchronisieren*.image:sync_now.png[""]Neue Benutzer, freigegebene Postfächer und Archivmailboxen werden erkannt und in einem ungeschützten Zustand hinzugefügt. Wenn neu erkannte Benutzer, freigegebene Postfächer oder Archivmailboxen gesichert werden sollen, müssen Sie die Sicherungsrichtlinie der Benutzer von ungeschützt in eine der vordefinierten Tier-Gruppen ändern.
+. Klicken Sie Auf *Bestätigen*.
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt zu überwachen. Wenn der Job abgeschlossen ist, können Sie unter *Zuletzt abgeschlossene Aufträge* auf den Job klicken, um die Anzahl der Benutzer anzuzeigen, die während der Synchronisierung hinzugefügt oder entfernt wurden. Änderungen an Benutzerkonten werden wie folgt angezeigt:
++
+** *Neu entdeckte* Benutzer gibt die Anzahl unveränderter Benutzerkonten an.
+** *Deaktivierte* Benutzer gibt die Anzahl der gelöschten Benutzerkonten an.
+** *Neu hinzugefügte* Benutzer gibt die Anzahl neuer Benutzerkonten an.
+
+
+

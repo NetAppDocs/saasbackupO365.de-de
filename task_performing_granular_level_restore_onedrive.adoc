@@ -1,0 +1,116 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_onedrive.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business 
+summary: Mithilfe von SaaS Backup für Microsoft 365 können Sie Restores auf allgemeinen und granularen Ebene für Microsoft OneDrive for Business durchführen. 
+---
+= Durchführung einer granularen Wiederherstellung für Microsoft OneDrive for Business
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Innerhalb von Microsoft OneDrive for Business können Sie Elemente auf granularer Ebene wie einzelne Ordner oder Dateien für eine Liste oder Bibliothek wiederherstellen. Sie können OneNote-Notebooks oder -Gruppen auch wiederherstellen.
+
+Standardmäßig ist nur das aktuellste Backup für die Wiederherstellung verfügbar. Weitere verfügbare Optionen sind:
+
+image:backup_for_restore_availability.png["Verfügbare Backups zur Wiederherstellung"]
+
+Die Tabelle gibt die Restore-Optionen an, die für Objekte auf granularer Ebene für OneDrive for Business unterstützt werden.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Elementtyp | Wiederherstellung auf derselben MySite | Wiederherstellung auf einer anderen MySite | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+| Einzellaufwerk  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| OneDrive for Business > MySites 
+
+
+| Mehrere Laufwerke  a| 
+Nein
+ a| 
+Nein
+ a| 
+Nein
+| OneDrive for Business > MySites 
+
+
+| Einzelne/mehrere Ordner  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| OneDrive for Business > MySites > <Drive Name> > Dateien 
+
+
+| Einzelne/mehrere Elemente  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| OneDrive for Business > MySites > <Drive Name> > Dateien 
+
+
+| Ordner für Notebooks  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| OneDrive for Business > MySites > <Drive Name> > Dateien 
+
+
+| OneNote Einzelordner/mehrere Ordner  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| OneDrive for Business > MySites > <Drive Name> > Dateien > Notebooks 
+|===
+.Schritte
+. Klicken Sie im Dashboard in der OneDrive-Box auf die oben genannte *PROTECTED*-Nummer.
+. Klicken Sie auf die MySite, für die Sie die Wiederherstellung durchführen müssen.
+. Wählen Sie die Gruppe der Dateien aus.
++
+Wenn Sie einzelne Ordner oder Dateien innerhalb einer Gruppe wiederherstellen möchten, klicken Sie auf die Dateigruppe. Um einen gesamten Ordner wiederherzustellen, wählen Sie den Ordner aus. Um einzelne Dateien innerhalb eines Ordners wiederherzustellen, wählen Sie den Ordner aus, der die Dateien enthält, und wählen Sie dann die einzelnen Dateien aus.
+
+. Klicken Sie Auf *Wiederherstellen*.
+. Wählen Sie eine Wiederherstellungsoption aus:
++
+** *Restore auf dieselbe MySite*
++
+Wenn Sie einzelne Dateien auf derselben MySite wiederherstellen, wird standardmäßig ein Ordner mit dem aktuellen Datum und dem aktuellen Zeitstempel im ursprünglichen Speicherort des Inhalts erstellt, der die Sicherungskopie enthält.
+
++
+Wenn Sie *den vorhandenen Inhalt ersetzen* wählen, werden Ihre aktuellen Daten vollständig durch das Backup ersetzt.
+
+** *Wiederherstellen auf eine andere MySite*
++
+Wenn Sie eine andere MySite wiederherstellen, müssen Sie die Ziel-MySite in das Suchfeld eingeben. Sie können einen Teil der Ziel-MySite in das Suchfeld eingeben, um eine automatische Suche nach passenden Ziel-MySites zu initiieren.
+
+** *Daten Exportieren*
++
+Wenn Sie Daten exportieren, müssen Sie sie herunterladen. Wechseln Sie im linken Menü zur Meldung. Suchen Sie Ihren Exportdatenauftrag. Klicken Sie auf *Total Folders*. Klicken Sie dann auf *Datendownload-Link exportieren*. Eine ZIP-Datei wird heruntergeladen. Öffnen Sie die ZIP-Datei, um die Daten zu extrahieren.
+
++
+
+NOTE: Wenn Sie die Option *Daten exportieren* wiederherstellen wählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.
+
+
+
+. Klicken Sie Auf *Bestätigen*.
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt der Wiederherstellung zu überwachen.
+

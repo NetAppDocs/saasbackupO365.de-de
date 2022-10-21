@@ -1,0 +1,75 @@
+---
+sidebar: sidebar 
+permalink: task_performing_high_level_restore.html 
+keywords: netapp, saas backup, perform, high-level restore, microsoft 365, Exchange, OneDrive 
+summary: Im Rahmen des gleichen Verfahrens führen Sie grundlegende Restores von Mailboxen für Microsoft Exchange Online, MySites für Microsoft OneDrive for Business, Websites für Microsoft SharePoint Online und für Microsoft 365 Gruppen durch. 
+---
+= Durchführung einer Wiederherstellung des Service auf hoher Ebene
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Im Rahmen des gleichen Verfahrens führen Sie grundlegende Restores von Mailboxen für Microsoft Exchange Online, MySites für Microsoft OneDrive for Business, Websites für Microsoft SharePoint Online und für Microsoft 365 Gruppen durch.
+
+Standardmäßig ist nur das aktuellste Backup für die Wiederherstellung verfügbar. Weitere verfügbare Optionen sind:
+
+image:backup_for_restore_availability.png["Verfügbare Backups zur Wiederherstellung"]
+
+.Schritte
+. Klicken Sie im Dashboard in der Box des Dienstes, für den Sie die Wiederherstellung durchführen möchten, auf die oben genannte *PROTECTED*-Nummer.
+. Wählen Sie den Namen der Mailbox, Gruppe, des Teams, der MySite oder des wiederherzustellenden Standorts aus.
+. Wählen Sie eine Wiederherstellungsoption aus:
++
+
+NOTE: Wenn Sie die Option Export to PST Restore auswählen, ist der bereitgestellte Link sieben Tage lang gültig und ist vorauthentifiziert.
+
++
+.. Wenn Sie Mailboxen für *Microsoft Exchange Online* wiederherstellen, wählen Sie eine der folgenden Optionen:
++
+
+NOTE: Beim Wiederherstellen von Mailboxen mit Nachrichten, die größer als 140 MB sind, können Uploadfehler auf den Server auftreten. Wir empfehlen Ihnen, eine allgemeine Wiederherstellung mit der Export to PST Option durchzuführen. Weitere Informationen finden Sie unter link:https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits["Microsoft Exchange Online-Grenzen: Nachrichtengrenzen"].
+
++
+*** Wiederherstellung derselben Mailbox
+*** Export in PST Wenn Sie in PST exportieren, erhalten Sie eine Benachrichtigungs-E-Mail mit dem Speicherort der PST-Datei, wenn der Export abgeschlossen ist.
+*** Wiederherstellen in eine andere Mailbox Wenn Sie eine andere Mailbox wiederherstellen, müssen Sie die Ziel-Mailbox in das Suchfeld eingeben. Sie können einen Teil der Ziel-E-Mail-Adresse in das Suchfeld eingeben, um eine automatische Suche nach passenden Zielpostfächern zu initiieren.
+
+
+.. Wenn Sie Gruppen für *Microsoft Office 365 Gruppen* wiederherstellen, wählen Sie eine der folgenden Optionen:
++
+*** Wiederherstellung in derselben Gruppe
+*** In andere Gruppe wiederherstellen
+*** Daten exportieren Wenn Sie exportieren, wird eine PST-Datei mit Ihren Microsoft Exchange-Dateien erstellt und eine ZIP-Datei mit Ihren Microsoft SharePoint-Sites erstellt. Sie erhalten eine Benachrichtigungs-E-Mail mit dem Speicherort der PST-Datei und einer authentifizierten URL zum Speicherort der .zip-Datei.
+
+
+.. Wenn Sie Teams unter *Microsoft Office 365 Groups* wiederherstellen, wählen Sie eine der folgenden Optionen:
++
+*** Restore ins gleiche Team
+*** Wiederherstellen in ein anderes Team Dies ist ideal für Situationen, in denen ein Team aus Microsoft 365 gelöscht wird. Sie sollten ein neues Team erstellen, um diese Wiederherstellungsoption zu verwenden. Wenn Sie vor Kurzem ein neues Team in MS-Teams erstellt haben, können Sie es durch die Synchronisierung des Services ermitteln. Gehen Sie zu *Diensteinstellungen* auf der linken Seite. Klicken Sie Auf *Office 365*. Klicken Sie unter *Dienste verwalten* auf *Jetzt synchronisieren* für Microsoft 365 Gruppen.
+*** Daten exportieren Wenn Sie Daten exportieren, müssen Sie sie herunterladen. Wechseln Sie im linken Menü zur Meldung. Suchen Sie Ihren Exportdatenauftrag. Klicken Sie auf *Total Folders*. Klicken Sie dann auf *Datendownload-Link exportieren*. Eine ZIP-Datei wird heruntergeladen. Öffnen Sie die ZIP-Datei, um die Daten zu extrahieren.
+
+
+.. Wenn Sie MySites für *Microsoft OneDrive for Business* wiederherstellen, wählen Sie eine der folgenden Optionen aus:
++
+*** Wiederherstellung auf derselben MySite
+*** Auf eine andere MySite wiederherstellen Wenn Sie auf eine andere MySite wiederherstellen, geben Sie im Suchfeld die Ziel-MySite ein. Sie können einen Teil der Ziel-MySite in das Suchfeld eingeben, um eine automatische Suche nach passenden Ziel-MySites zu initiieren.
+*** Daten exportieren Wenn Sie exportieren, wird eine ZIP-Datei mit Ihren MySites erstellt. Sie erhalten eine Benachrichtigungs-E-Mail mit einer authentifizierten URL an den Speicherort der .zip-Datei.
+
+
+.. Wenn Sie Sites für *Microsoft SharePoint Online* wiederherstellen, wählen Sie eine der folgenden Optionen:
++
+*** Wiederherstellung auf derselben Seite Wenn Sie *nur Rollen wiederherstellen* auswählen, werden nur die Rollen und Berechtigungen wiederhergestellt.image:sharepoint_restore_only_roles.png["Bild zeigt Wiederherstellungsfenster mit Auswahl der Option „nur Rollen wiederherstellen“"]
+*** Wiederherstellung an einem anderen Standort Wenn Sie auf einem anderen Standort wiederherstellen, geben Sie den Zielstandort im Suchfeld ein. Sie können einen Teil der Zielwebsite in das Suchfeld eingeben, um eine automatische Suche nach passenden Zielstandorten zu starten.
+*** Daten exportieren Wenn Sie exportieren, wird eine ZIP-Datei zusammen mit Ihrer Websitesammlung erstellt. Sie erhalten eine Benachrichtigungs-E-Mail mit einer authentifizierten URL an den Speicherort der .zip-Datei.
+
+
+
+
+. Klicken Sie Auf *Bestätigen*. Es wird eine Meldung angezeigt, die angibt, dass der Wiederherstellungsauftrag erstellt wurde.
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt der Wiederherstellung zu überwachen.
+

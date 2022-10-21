@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deleted.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
+summary: Sie können gelöschte Elemente aller Dienste anzeigen, wenn Sie gelöschte Elemente in den Diensteinstellungen einschalten. 
+---
+= Gelöschte Elemente anzeigen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können gelöschte Elemente in allen Diensten jederzeit anzeigen, indem Sie in den Diensteinstellungen *Gelöschte Elemente anzeigen* aktivieren. Dadurch sparen Sie Zeit. Anstatt verschiedene Backups für gelöschte Objekte zu durchsuchen, schalten Sie den Switch ein, um die gelöschten Elemente sofort zu finden.
+
+Standardmäßig ist der Schalter ausgeschaltet.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *SERVICES*.
+. Klicken Sie auf das Symbol Einstellungen image:settings_icon.gif["Bild zeigt das Einstellungssymbol"].
++
+image:show_deleted_items_switch_off.gif["Bild zeigt, dass die gelöschten Elemente ausgeschaltet sind"]
+
+. Schalten Sie den Schalter *Gelöschte Objekte anzeigen* ein.
++
+image:show_deleted_items_switch_on.gif["Bild zeigt den Wechsel gelöschter Elemente und die aktualisierten Backup-Einstellungen"]
+
+. Klicken Sie im linken Navigationsbereich auf *Jobs*.
+. Öffnen Sie das letzte Backup, um die gelöschten Elemente anzuzeigen.
+

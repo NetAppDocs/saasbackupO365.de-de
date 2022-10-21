@@ -1,0 +1,191 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_sharepoint.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft SharePoint Online, sites 
+summary: Sie können SaaS Backup für Microsoft 365 verwenden, um granulare Restores für Microsoft SharePoint Online durchzuführen. 
+---
+= Führen Sie ein Restore auf granularer Ebene für Microsoft SharePoint Online durch
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Innerhalb von Microsoft SharePoint Online können Sie Objekte auf granularer Ebene für einen einzelnen Benutzer wie einzelne Ordner oder Dateien wiederherstellen. Sie können auch Elemente auf granularer Ebene für einen Standort der Microsoft 365-Gruppe und OneNote-Notebooks wiederherstellen. Standortrollen und -Berechtigungen werden automatisch im Rahmen einer Wiederherstellung oder eines Backups geschützt.
+
+Standardmäßig ist nur das aktuellste Backup für die Wiederherstellung verfügbar. Weitere verfügbare Optionen sind:
+
+image:backup_for_restore_availability.png["Verfügbare Backups zur Wiederherstellung"]
+
+Die Tabelle gibt die Wiederherstellungsoptionen an, die für Objekte auf granularer Ebene unterstützt werden.
+
+
+NOTE: Für die Restore-Optionen *Wiederherstellen auf derselben Site* und *Wiederherstellen auf einer anderen Site* werden die folgenden Elemente unter der ausgewählten Site mit der Namensgebungskonvention <sitename_cc_timestamp> als Subsites wiederhergestellt: *Single site*, *Multiple Sites* und *Single/Multiple Lists*, wenn 3 oder mehr Listen ausgewählt sind.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Elementtyp | Wiederherstellung auf demselben Standort | Wiederherstellung an einem anderen Standort | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+| Einzelne/mehrere Elemente  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| SharePoint Online > Sites > <Site Name> > <List Name> 
+
+
+| Ein Standort  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites 
+
+
+| Mehrere Standorte  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| SharePoint Online > Sites 
+
+
+| Kommunikationsstandorte  a| 
+Nein
+ a| 
+Nein
+ a| 
+Nein
+| SharePoint Online > Sites 
+
+
+| Einzelne/mehrere Subsites  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> > Subsites 
+
+
+| Einzelne/mehrere Ordner  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> > <List Name> 
+
+
+| Einfach-/Mehrfachlisten  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> 
+
+
+| OneNote ein-/mehrere Notebooks  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> > <List Name> 
+
+
+| OneNote-Gruppen mit einem oder mehreren Bereichen  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+| SharePoint Online > Sites > <Site Name> > <List Name> > <Notebook folder> 
+
+
+| OneNote Einzelabschnitte  a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+| SharePoint Online > Sites > <Site Name> > <List Name> > <Notebook folder> 
+|===
+.Schritte
+. Klicken Sie im Dashboard im Feld SharePoint auf die oben aufgeführte Zahl *GESCHÜTZT*.
+. Klicken Sie auf die Site, für die Sie die granulare Wiederherstellung durchführen müssen.
+. Wählen Sie die Kategorie aus, die Sie wiederherstellen müssen.
++
+
+NOTE: Wenn Sie bestimmte einzelne Elemente in einer Kategorie wiederherstellen möchten, klicken Sie auf die Inhaltskategorie, und wählen Sie anschließend die einzelnen Elemente aus.
+
+. Klicken Sie zum Wiederherstellen aus dem letzten Backup auf *Wiederherstellen*. Um eine vorherige Version des Elements wiederherzustellen, klicken Sie auf *Versionen anzeigen*, und wählen Sie die Version aus, die Sie wiederherstellen möchten, und klicken Sie dann auf *Wiederherstellen*.
+. Wählen Sie eine Wiederherstellungsoption aus:
++
+** *Wiederherstellen auf demselben Standort* Wenn Sie auf derselben Site wiederherstellen, wird standardmäßig ein Ordner mit dem aktuellen Datum und dem aktuellen Zeitstempel im ursprünglichen Speicherort der Datei erstellt, der die Sicherungskopie enthält.
++
+Wenn Sie *nur Rollen wiederherstellen*, *Überschreiben mit Merge* oder *vorhandenen Inhalt ersetzen* wählen, ist die einzige Wiederherstellungsoption *Restore auf dieselbe Site*.
+
++
+[cols="24a,24a"]
+|===
+| Wenn Sie auswählen | Wiederherstellung auf demselben Standort 
+
+
+ a| 
+Stellen Sie nur Rollen wieder her
+ a| 
+Alle Arten von Elementen
+
+
+
+ a| 
+Mit Zusammenführung überschreiben
+ a| 
+Alle Elemente außer Standortebene
+
+
+
+ a| 
+Durch vorhandenen Inhalt ersetzen
+ a| 
+Nur Elementebene
+
+|===
++
+Wenn Sie *nur Rollen wiederherstellen* auswählen, werden nur die Rollen und Berechtigungen wiederhergestellt.image:sharepoint_granular_restore_only_roles.png["Bild zeigt das Fenster zur Wiederherstellung auf granularer Ebene mit der Option „nur Rollen wiederherstellen“ ausgewählt"]
+
++
+Wenn Sie die Option *Überschreiben mit Merge* wählen, wird kein Wiederherstellungsordner erstellt. Wenn die Version der Sicherungsdatei und die aktuelle Datei übereinstimmen, wird das Backup am ursprünglichen Speicherort wiederhergestellt. Neue Inhalte des Ziels werden ignoriert und nicht beeinträchtigt. Wenn das Backup z. B. die Datei1-Version 5 enthält und das Ziel File1 Version 6 enthält, schlägt eine Wiederherstellung mit der ausgewählten Option *Überschreiben mit Zusammenführen* fehl.
+
++
+Wenn Sie die Option *vorhandenen Inhalt ersetzen* wählen, wird die aktuelle Version der Daten vollständig durch die Sicherungskopie ersetzt.
+
+** *Wiederherstellen auf einen anderen Standort*
++
+Wenn Sie auf einen anderen Standort wiederherstellen, müssen Sie die Zielwebsite im Suchfeld eingeben. Sie können einen Teil der Site in das Suchfeld eingeben, um eine automatische Suche nach übereinstimmenden Sites zu initiieren.
+
+** *Daten Exportieren*
++
+Wenn Sie Daten exportieren, müssen Sie sie herunterladen. Gehen Sie im linken Menü zu *Reporting*. Suchen Sie Ihren Exportdatenauftrag. Klicken Sie auf *Total Folders*. Klicken Sie dann auf *Datendownload-Link exportieren*. Eine ZIP-Datei wird heruntergeladen. Öffnen Sie die ZIP-Datei, um die Daten zu extrahieren.
+
++
+
+NOTE: Wenn Sie die Option *Daten exportieren* wiederherstellen wählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.
+
+
+
+. Klicken Sie Auf *Bestätigen*.
++
+Es wird eine Meldung angezeigt, die angibt, dass der Wiederherstellungsauftrag erstellt wurde.
+
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt der Wiederherstellung zu überwachen.
+

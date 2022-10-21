@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_service.html 
+keywords: netapp, saas backup, microsoft 365, perform, performing, immediate, backup, service 
+summary: Nach Bedarf können Sie ein sofortiges Backup von jedem Microsoft 365 Service durchführen. 
+---
+= Führen Sie ein sofortiges Backup eines Service durch
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nach Bedarf können Sie ein sofortiges Backup von jedem Microsoft 365 Service durchführen.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte *PROTECTED*-Nummer in der Box des Dienstes, für den Sie eine sofortige Sicherung durchführen möchten.
+. Wählen Sie Ihre Backup-Option aus.
++
+.. Für Exchange
++
+*** Wenn Sie freigegebene Postfächer sichern möchten, klicken Sie auf die Registerkarte *SHARED*.
+*** Wenn Sie Archivmailboxen sichern, klicken Sie auf die Registerkarte *ARCHIVE*.
+*** Wenn Sie normale Postfächer sichern, bleiben Sie auf der Registerkarte *USER*.
+
+
+.. Für SharePoint
++
+*** Wenn Sie Sites sichern, bleiben Sie auf der Registerkarte *SITES*.
+
+
+.. Für OneDrive
++
+*** Wenn Sie Benutzer sichern, bleiben Sie auf der Registerkarte *USER*.
+
+
+.. Für Microsoft 365 Gruppen
++
+*** Wenn Sie Gruppen sichern, bleiben Sie auf der Registerkarte *GROUPS*.
+*** Wenn Sie Teams sichern, klicken Sie auf die Registerkarte *TEAMS*.
++
+
+NOTE: TeamsChat-Nachrichten werden nur gesichert, wenn TeamsChat unter Einstellungen aktiviert ist. Kontakt link:https://mysupport.netapp.com/["Unterstützung"] Um diese Funktion zu aktivieren.
+
++
+
+NOTE: Aufgrund von API-Einschränkungen kann SaaS Backup nicht zwischen Public und Private Channels unterscheiden.
+
+
+
+
+
+. Wählen Sie die Elemente aus, die Sie sichern möchten.
+. Klicken Sie Auf *Jetzt Sichern*.
++
+image:backup_now.gif["Schaltfläche „Jetzt sichern“"]
+
++
+Es wird eine Meldung angezeigt, die angibt, dass die ausgewählten Services für das Backup in die Jobwarteschlange verschoben werden.
+
+. Klicken Sie Auf *Bestätigen*. Es wird eine Meldung angezeigt, die angibt, dass der Backupjob erstellt wurde.
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt des Backups zu überwachen.
+

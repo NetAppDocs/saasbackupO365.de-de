@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_admin_roles_from_a_user_account.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleted, deleting, role-based accounts, administrative roles, privileges, removing 
+summary: Wenn alle Administratorrollen aus einem Benutzerkonto gelöscht werden, wird der Benutzer automatisch von SaaS Backup für Microsoft 365 abgemeldet. 
+---
+= Löschen Sie alle Administratorrollen aus einem Benutzerkonto
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn alle Administratorrollen aus einem Benutzerkonto gelöscht werden, wird der Benutzer automatisch von SaaS Backup für Microsoft 365 abgemeldet.
+
+.Schritte
+. Klicken Sie auf das Einstellungssymbol image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben Ihrer Benutzer-ID oben links auf dem Bildschirm.
+. Klicken Sie auf *KONTOEINSTELLUNGEN*.
+. Klicken Sie auf *ROLLENVERWALTUNG*.
+. Klicken Sie neben dem Benutzernamen, den Sie entfernen möchten, auf *Benutzer löschen*.
+. Klicken Sie Auf *Ja*.
+

@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_purged.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites 
+summary: Sie können eine Liste von gelöschten Mailboxen oder Benutzerkonten anzeigen. 
+---
+= Eine Liste der gelöschten Daten anzeigen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können eine Liste von gelöschten Mailboxen oder Benutzerkonten anzeigen.
+
+.Schritte
+. Klicken Sie Auf image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben Ihrer SaaS Backup Benutzer-id oben links.
+. Wählen Sie *KONTOEINSTELLUNGEN*.
+. KLICKEN SIE AUF *BEIBEHALTEN UND LÖSCHEN*.
+. Klicken Sie unter *Daten löschen* auf *Liste ausgelöscht anzeigen*.
++
+Sie können eine Liste der zu bereinigen geplanten Elemente und eine Liste mit bereits gelöschten Elementen anzeigen.
+
+

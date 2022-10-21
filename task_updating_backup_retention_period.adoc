@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_retention_period.html 
+keywords: netapp, saas backup, microsoft 365, backup, retention, period, update, updating, specific, tier, tenants 
+summary: Sie können die Zeitspanne in den Jahren aktualisieren, während die Daten für einzelne Tiers, Mailboxen, Standorte und MySites aufbewahrt werden, auf 7 Jahre, 10 Jahre oder unbegrenzt. 
+---
+= Aktualisieren Sie den Aufbewahrungszeitraum für Backups
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sie können die Zeitspanne in den Jahren aktualisieren, während die Daten für einzelne Tiers, Mailboxen, Standorte und MySites aufbewahrt werden, auf 7 Jahre, 10 Jahre oder unbegrenzt. Bei aktivem Abonnement speichert SaaS Backup die Backup-Daten für den Aufbewahrungszeitraum. Wenn alle Backup-Tiers denselben Aufbewahrungszeitraum haben, können Sie ein globales Update durchführen, um gleichzeitig den Aufbewahrungszeitraum für alle Mandanten zu ändern.
+
+
+
+== Die Aufbewahrungsdauer für Backups für einen bestimmten Tier aktualisieren
+
+.Schritte
+. Klicken Sie im *Dashboard* auf einen beliebigen Dienst.
+. Klicken Sie unter *Backup Policies* auf das Dropdown-Menü neben *AUFBEWAHRUNGSZEITRAUM* für den Tier, den Sie ändern möchten.
+. Wählen Sie den gewünschten Aufbewahrungszeitraum aus der vordefinierten Liste aus.
+. KLICKEN SIE AUF *AUFBEWAHRUNGSZEITRAUM AKTUALISIEREN*.
+
+
+
+
+== Aktualisierung der Backup-Aufbewahrungsdauer für einzelne Benutzer und Mandanten
+
+.Schritte
+. Klicken Sie auf das Konfigurationssymbol image:configure_icon.gif["Konfigurationssymbol"] Neben Ihrer SaaS Backup Benutzer-ID oben links.
+. Klicken Sie auf *KONTOEINSTELLUNGEN*.
+. KLICKEN SIE AUF *BEIBEHALTEN UND LÖSCHEN*.
+. Um die Aufbewahrungsrichtlinie für einen bestimmten Benutzer in einem bestimmten Dienst zu aktualisieren, gehen Sie wie folgt vor:
++
+.. Klicken Sie unter *Data Retention Policies* auf das Dropdown-Menü neben *ANBIETER* und wählen Sie den Anbieter aus.
+.. Klicken Sie auf das Dropdown-Menü neben *SERVICENAME* und wählen Sie den Dienst aus.
+.. Klicken Sie auf das Dropdown-Menü neben *AUFBEWAHRUNGSZEITRAUM* und wählen Sie den gewünschten Zeitraum aus der Liste der voreingestellten Zeiten aus.
+.. Beginnen Sie im Suchfeld mit der Eingabe des Benutzers, der Website oder der MySite, die Sie aktualisieren möchten.
+.. Wählen Sie den gewünschten Benutzer, die Website oder die MySite aus den entsprechenden Ergebnissen aus.
+.. Klicken Sie Auf image:bluecircle_icon.gif["Plus-Zeichen"].
+.. Weiterhin nach einzelnen Mailboxen, Websites oder MySites suchen und diese nach Bedarf hinzufügen.
+.. Klicken Sie Auf *Speichern*. Die ausgewählten einzelnen Mailboxen, Standorte oder MySites werden in den ausgewählten Aufbewahrungszeitraum aktualisiert.
+
+
+. Um die Datenaufbewahrungsrichtlinie auf Mandantenebene zu aktualisieren, gehen Sie wie folgt vor:
++
+.. Klicken Sie unter *Tenant Level Data Retention Policies* auf Dropdown-Menü neben *RETENTION PERIOD* und wählen Sie den gewünschten Zeitraum aus der Liste der voreingestellten Zeiten aus.
+.. Klicken Sie Auf *Speichern*. Alle Ebenen der Sicherungsrichtlinien werden in den von Ihnen ausgewählten Aufbewahrungszeitraum aktualisiert.
+
+
+

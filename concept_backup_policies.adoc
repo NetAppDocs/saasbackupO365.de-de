@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_policies.html 
+keywords: netapp, saas backup, microsoft 365, backup, policies, byos, provides, storage, tiers, tier 1, tier 2, tier 3, frequency, default, data, retention, 
+summary: SaaS Backup für microsoft 365 verfügt über drei vordefinierte Tiers von Backup-Richtlinien. Diese Richtlinieebenen variieren in der Backup-Häufigkeit und dem Aufbewahrungszeitraum, je nachdem, ob Sie SaaS Backup Storage oder BYOS verwenden. 
+---
+= Backup-Richtlinien
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup für Microsoft 365 verfügt über drei vordefinierte Tiers von Backup-Richtlinien. Diese Richtlinieebenen variieren in der Backup-Häufigkeit und dem Aufbewahrungszeitraum, je nachdem, ob Sie SaaS Backup Storage oder BYOS verwenden.
+
+Sie können Daten zwischen den drei Richtlinien verschieben, jedoch können Sie keine neuen Richtlinien erstellen oder die Parameter der vordefinierten Tiers ändern.
+
+
+
+== Backup-Richtlinien für von SaaS Backup bereitgestellten Storage
+
+|===
+| Backup-Richtlinie | Sicherungshäufigkeit | Standardaufbewahrungszeitraum für Daten 
+
+
+| Tier 1 | Einmal alle 12 Stunden | 3 Jahre 
+
+
+| Ebene 2 | Einmal alle 18 Stunden | 3 Jahre 
+
+
+| Ebene 3 | Einmal alle 24 Stunden | 3 Jahre 
+|===
+
+NOTE: Als Administrator können Sie den Aufbewahrungszeitraum für über SaaS Backup bereitgestellten Storage bis zu einem unbegrenzten Zeitraum ändern. Bei aktivem Abonnement speichert SaaS Backup die Backup-Daten für den Aufbewahrungszeitraum.
+
+
+
+== Backup-Richtlinien für BYOS
+
+BYOS ist nur für bestehende Kunden vorgesehen.
+
+|===
+| Backup-Richtlinie | Sicherungshäufigkeit | Standardaufbewahrungszeitraum für Daten 
+
+
+| Tier 1 | Einmal alle 12 Stunden | Unbegrenzt 
+
+
+| Ebene 2 | Einmal alle 18 Stunden | Unbegrenzt 
+
+
+| Ebene 3 | Einmal alle 24 Stunden | Unbegrenzt 
+|===

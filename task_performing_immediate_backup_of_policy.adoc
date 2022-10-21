@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_policy.html 
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy 
+summary: Zu den ersten Schritten mit SaaS Backup für Microsoft 365 zählt die Entscheidung, welchen Storage-Typ Sie verwenden möchten, um Ihre Daten zu sichern, relevante Informationen zu sammeln, ein Microsoft 365-Servicekonto zu erstellen und Benutzerberechtigungen zuzuweisen. 
+---
+= Sofortiges Backup einer spezifischen Backup-Richtlinie durchführen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie SaaS Backup für Microsoft 365 einrichten, sind standardmäßig alle Daten nicht geschützt. Nachdem Sie Ihre Daten in eine geschützte Ebene verschoben haben, können Sie umgehend ein Backup der Ebene durchführen, auf die Sie Ihre Daten verschoben haben. Dadurch wird verhindert, dass Ihre Daten erst dann gefährdet werden, wenn das erste geplante Backup durchgeführt wird. Wenn Sie auf das erste geplante Backup warten können, ist es nicht erforderlich, ein sofortiges Backup durchzuführen.
+
+Sie können jederzeit eine sofortige Sicherung durchführen, wenn Sie für die Datensicherheit erforderlich erachten. Wenn Sie eine Testversion von SaaS Backup für Microsoft 365 ausführen, können Sie nur drei sofortige Backups pro Tag und Service durchführen.
+
+.Schritte
+. Wählen Sie im Dashboard den Dienst aus, für den Sie ein sofortiges Backup durchführen möchten.
+. Klicken Sie unter *Backup Policies* auf die Ebene, die Sie sichern möchten.
+. Klicken Sie Auf Jetzt Sichern.
++
+image:backup_now.gif["Screenshot aus dem SaaS Backup Button „Backup Now“"]
+
++
+Es wird eine Meldung angezeigt, die angibt, dass die Services unter der ausgewählten Ebene zur sofortigen Sicherung in die Jobwarteschlange verschoben werden.
+
+. Klicken Sie Auf *Bestätigen*. Es wird eine Meldung angezeigt, die angibt, dass der Backupjob erstellt wurde.
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt des Backups zu überwachen.
+

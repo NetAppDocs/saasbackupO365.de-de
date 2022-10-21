@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_performing_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
+summary: Sie können die Inline-Suche verwenden, um nach bestimmten Inhalten zu suchen. 
+---
+= Führen Sie eine Suche durch
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+In SaaS Backup für Microsoft 365 können die geschützten Daten in allen Services – Exchange Online, SharePoint Online, OneDrive for Business sowie Groups und Teams – durchsucht werden.
+
+Sie können ungeschützte Instanzen durchsuchen, aber es werden nur Suchergebnisse angezeigt, wenn frühere Backups erstellt wurden.
+
+Verwenden Sie folgende Kriterien, um Ihre Suchergebnisse zu verbessern:
+
+* Mindestens drei Zeichen
+
+
+
+NOTE: Wenn Sie mehr als 3 Zeichen eingeben, können die vorherigen Suchergebnisse für 3 Zeichen in Ihren Suchergebnissen verbleiben.
+
+* Alphanumerische Eingabe
+* Einzelne Anführungszeichen für eine exakte Übereinstimmung eines Wortes, einer Wortfolge oder einer Zahl. Beispiel: „Budget 2014“.
+
+
+Führen Sie die folgenden Schritte aus, um Ihre geschützten Instanzen zu durchsuchen.
+
+.Schritte
+. Klicken Sie im Dashboard in einem Dienst, in dem Sie suchen möchten, auf die oben genannte *protected*-Nummer.image:number_protected_unprotected_highlight_protected.gif["Screenshot der hervorgehobenen geschützten Instanzen"]
+. Suchen Sie das Suchfeld oben rechts auf der Seite.image:search_box_exchange.png["Screenshot des Suchfelds in Exchange Online"]
++
+Geben Sie dann die Informationen ein, die Sie im Suchfeld sehen, z. B. „Name“ oder „E-Mail“ in das Suchfeld.image:search_box_exchange_prompts.png["Screenshot des Suchfelds mit Suchaufforderungen in Exchange Online"]
+
++
+.. Suchen Sie nach Namen oder E-Mail-Adresse für Microsoft Exchange Online.
+.. Suchen Sie nach Namen, E-Mail oder MySite für Microsoft OneDrive for Business.
+.. Suchen Sie nach Site-Name oder url für Microsoft SharePoint Online.
+.. Suche nach Gruppennamen oder Teamnamen für Microsoft 365 Gruppen und Teams.
+
+
+. Alle Ergebnisse, die zu den Suchkriterien passen oder übereinstimmen, werden angezeigt.
+
+
+Sie können eine Suche auch auf detaillierteren Ebenen innerhalb jedes Service durchführen. Wenn rechts neben dem Suchfeld ein Dropdown-Menü angezeigt wird, wählen Sie im Dropdown-Menü *Datei* oder *Ordner* aus, um die Suchergebnisse einzugrenzen.
+
+image:search_box_dropdown_menu_file&folder.png["suchfeld mit Dropdown-Menü Datei/Ordner"]

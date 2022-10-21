@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task_restoring_from_previous_backup.html 
+keywords: netapp, saas restore, restoring, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+summary: Standardmäßig ist nur Ihr aktuelles Backup für die Wiederherstellung verfügbar. 
+---
+= Wiederherstellung aus einem früheren Backup
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Standardmäßig ist nur Ihr aktuelles Backup für die Wiederherstellung verfügbar.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte *PROTECTED*-Nummer des Dienstes, für den Sie die Wiederherstellung durchführen möchten.
++
+** Klicken Sie für freigegebene Mailboxen auf die Registerkarte *SHARED*.
+** Für Archivmailboxen klicken Sie auf die Registerkarte *ARCHIVE*. Hinweis: Archivmailboxen werden in der normalen Mailbox des Benutzers wiederhergestellt.
+** Bleiben Sie bei normalen Mailboxen auf der Registerkarte *USER*.
+
+
+. Klicken Sie auf das Element, das Sie wiederherstellen möchten.
+. Klicken Sie Auf *Backup-Verlauf Anzeigen*.
++
+Ein Kalender wird angezeigt. Termine, für die Backups verfügbar sind, werden durch einen grünen Kreis angezeigt.
+
+. Wenn Sie die gesicherten Elemente über eine bestimmte Anzahl von Tagen anzeigen möchten, klicken Sie auf *Ausgewählte Backups anzeigen* und wählen Sie im Dropdown-Menü eine der vordefinierten Tage aus.
+. Klicken Sie andernfalls auf das Datum des Backups, das Sie wiederherstellen möchten, und wählen Sie dann das spezifische Backup aus.
+. Wählen Sie die Elemente aus, die wiederhergestellt werden sollen.
+. Klicken Sie Auf image:restore.gif["Bild der Schaltfläche Wiederherstellen"]
+. Wählen Sie eine Wiederherstellungsoption aus:
++
+.. Wenn Sie Mailboxen für *Microsoft Exchange Online* oder ein Postfach für eine Microsoft 365-Gruppe wiederherstellen, wählen Sie eine der folgenden Optionen aus:
++
+*** *Restore in dieselbe Mailbox*
++
+Wenn Sie dieselbe Mailbox wiederherstellen, wird standardmäßig im ursprünglichen Inhaltsverzeichnis ein Ordner mit dem aktuellen Datum und dem aktuellen Zeitstempel erstellt, der die Backup-Kopie enthält. Wenn Sie *den vorhandenen Inhalt ersetzen* wählen, werden Ihre aktuellen Daten vollständig durch das Backup ersetzt.
+
+*** *Wiederherstellen in eine andere Mailbox*
++
+Wenn Sie eine andere Mailbox wiederherstellen, müssen Sie die Ziel-Mailbox im Suchfeld eingeben. Sie können einen Teil der Ziel-E-Mail-Adresse in das Suchfeld eingeben, um eine automatische Suche nach passenden Zielpostfächern zu initiieren.
+
+
+
+.. Wenn Sie MySites für *Microsoft OneDrive for Business* wiederherstellen, wählen Sie eine der folgenden Optionen aus:
++
+*** *Restore auf dieselbe MySite*
++
+Wenn Sie einzelne Dateien auf derselben MySite wiederherstellen, wird standardmäßig ein Ordner mit dem aktuellen Datum und dem aktuellen Zeitstempel im ursprünglichen Speicherort des Inhalts erstellt, der die Sicherungskopie enthält. Wenn Sie *den vorhandenen Inhalt ersetzen* wählen, werden Ihre aktuellen Daten vollständig durch das Backup ersetzt. Wenn Sie einen kompletten Ordner wiederherstellen, steht die Option *vorhandenen Inhalt ersetzen* nicht zur Verfügung.
+
+*** *Wiederherstellen auf eine andere MySite*
++
+Wenn Sie eine andere MySite wiederherstellen, müssen Sie die Ziel-MySite in das Suchfeld eingeben. Sie können einen Teil der Ziel-MySite in das Suchfeld eingeben, um eine automatische Suche nach passenden Ziel-MySites zu initiieren.
+
+
+
+.. Wenn Sie Sites für *Microsoft SharePoint Online* wiederherstellen, können Sie auf dieselbe Website oder auf eine andere Site wiederherstellen. Wenn Sie einen Standort der Microsoft 365-Gruppe wiederherstellen, können Sie nur auf denselben Standort wiederherstellen.
++
+*** *Wiederherstellen auf demselben Standort*
++
+Wenn Sie auf demselben Standort wiederherstellen, wird standardmäßig ein Ordner mit dem aktuellen Datum und dem aktuellen Zeitstempel im ursprünglichen Dateispeicherort erstellt, der die Sicherungskopie enthält. Wenn Sie die Option *Überschreiben mit Merge* wählen, wird kein Wiederherstellungsordner erstellt. Wenn die Version der Sicherungsdatei und die aktuelle Datei übereinstimmen, wird das Backup am ursprünglichen Speicherort wiederhergestellt. Neue Inhalte des Ziels werden ignoriert und nicht beeinträchtigt. Wenn das Backup z. B. die Datei1-Version 5 enthält und das Ziel File1 Version 6 enthält, schlägt eine Wiederherstellung mit der ausgewählten Option *Überschreiben mit Zusammenführen* fehl. Wenn Sie die Option *vorhandenen Inhalt ersetzen* wählen, wird die aktuelle Version der Daten vollständig durch die Sicherungskopie ersetzt.
+
+*** *Wiederherstellen auf einen anderen Standort*
++
+Wenn Sie auf einem anderen Standort wiederherstellen, müssen Sie die Zielwebsite in das Suchfeld eingeben. Sie können einen Teil der Zielwebsite in das Suchfeld eingeben, um eine automatische Suche nach übereinstimmenden Sites zu initiieren.
+
+
+
+
+
+. Klicken Sie Auf *Bestätigen*.
++
+Es wird eine Meldung angezeigt, die angibt, dass der Wiederherstellungsauftrag erstellt wird.
+
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt der Wiederherstellung zu überwachen.
+

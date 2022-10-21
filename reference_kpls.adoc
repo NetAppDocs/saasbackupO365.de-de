@@ -1,0 +1,91 @@
+---
+sidebar: sidebar 
+permalink: reference_kpls.html 
+keywords: 'what"s new, features, new, release notes, known, problems, limitations, application' 
+summary: SaaS Backup für Microsoft 365 hat in regelmäßigen Abständen eine neue Version vorgestellt, die Ihnen neue Funktionen, Verbesserungen und Fehlerkorrekturen bietet. 
+---
+= Bekannte Probleme und Einschränkungen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Im Folgenden sind bekannte Einschränkungen aufgeführt, die auf der Applikationsebene für SaaS Backup für Microsoft 365 ermittelt wurden.
+
+
+
+== Für SharePoint Online
+
+SaaS Backup unterstützt keine Backups archivierter SharePoint Sites.
+
+
+
+== Für OneDrive for Business
+
+Neu hinzugefügte Laufwerke werden erst erkannt, wenn Sie eine Synchronisierung für den Service manuell durchführen.
+
+
+
+== Für Exchange Online
+
+* SaaS Backup unterstützt keine Backups für öffentliche Ordner.
+* *Erweiterte Suche* ist nur für Exchange Online verfügbar. Die Einstellung ist standardmäßig deaktiviert. Ein Kunde muss die Aktivierung dieser Funktion anfordern. Nachdem die Einstellung *Erweiterte Suche* aktivieren aktiviert ist, müssen Administratoren die Suchfunktion für einzelne Benutzer manuell aktivieren.
+
+
+
+
+== Für Teams
+
+* Die Kanalkonfiguration wird wiederhergestellt, aber Inhalt und Gespräche sind nicht.
+* Aufgrund von API-Einschränkungen kann SaaS Backup bei SaaS Backup nicht zwischen öffentlichen und privaten Kanälen unterscheiden.
+* Stellen Sie auf hoher Ebene nur Mailbox- und SharePoint-Daten wieder her, nicht nur Gespräche.
+* Das Backup oder Restore von Eemojis und Gifs wird im Chat des Teams nicht unterstützt.
+* Die Option „nur Chat-Gespräche im Team“ ist Export in HTML. In Unterhaltungen gepostete Anhangslinks werden im HTML-Dokument nicht angezeigt.
+
+
+
+
+== Für OneNote
+
+* Export in Daten ist nicht verfügbar.
+* Inkrementelle Sicherung kann mit der folgenden Fehlermeldung fehlschlagen:
+`Partial Failure. Failed to back up few OneNote Sections`.
+* OneDrive Backups beinhalten die Sicherung von .onebak Dateien.
+* Die Restore-Statistiken können nicht heruntergeladen werden.
+* Datenexport und Datenlöschung werden nicht unterstützt.
+
+
+
+
+== Andere Probleme und Einschränkungen
+
+Die folgenden bekannten Probleme und Einschränkungen betreffen nicht nur eine Applikation.
+
+Für alle Benutzer, die sich mit einem Microsoft 365-Servicekonto anmelden:
+
+* SaaS Backup unterstützt nur die Basisauthentifizierung.
+
+
+Für kostenlose Testbenutzer:
+
+* Innerhalb von 24 Stunden dürfen maximal 10 Wiederherstellungen pro Service durchgeführt werden.
+
+
+Für lizenzierte Benutzer:
+
+* In einem Zeitraum von 24 Stunden sind maximal 10 Daten-Restores pro Service zulässig. Alle anderen Restore-Optionen haben keine Einschränkungen.
+
+
+Für die Wiederherstellung von Site-Erfassungsgruppen:
+
+* Wenn eine gesamte Websitesammlung gelöscht wird, schlägt die Wiederherstellung von privaten Gruppen in der Sammlung fehl, was zu einer Wiederherstellung des Jobstatus von „teilweise fehlgeschlagen“ führt. In diesem Fall ist der Zugriff auf die Site über die GUI nicht möglich.
+
+
+Für * Erweiterte Suche*:
+
+* In einem Zeitraum von 24 Stunden sind maximal 10 Suchjobs zulässig.
+

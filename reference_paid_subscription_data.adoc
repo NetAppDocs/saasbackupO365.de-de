@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: reference_paid_subscription_data.html 
+keywords: paid, subscription, data, saas, backup, microsoft 365 
+summary: Wenn Sie Ihre lizenzierte Version von SaaS Backup für Microsoft 365 nicht erneuern, werden die während Ihres Abonnements verwendeten Daten gelöscht. 
+---
+= Datenlöschung
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie Ihre lizenzierte Version von SaaS Backup für Microsoft 365 nicht erneuern, werden die während Ihres Abonnements verwendeten Daten wie folgt gelöscht:
+
+|===
+| Wäre Ihr SaaS Backup-Abonnement kostenpflichtig? | Anzahl der Tage nach Ende des bezahlten Abonnements | Ihre Daten sind... 
+
+
+| Abgelaufen | 1-30 Tage | Verfügbar: Der Administrator verfügt über normalen Zugriff und kann manuelle Backups und Restores durchführen. SaaS Backup zeigt weiterhin Warnungen an und sendet Benachrichtigungen. 
+
+
+| Deaktiviert | 31-60 Tage | Deaktiviert: Der Administrator hat keinen Zugriff auf das SaaS Backup Portal. Wenn das Abonnement während dieses Zeitraums verlängert wird, können Daten reaktiviert werden. 
+
+
+| Deprovisioniert | 61 oder mehr Tage | Gelöscht: Alle Daten werden gelöscht und Ihr Mandantenkonto wird entfernt. 
+|===

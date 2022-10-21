@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_updating_subscription_information.html 
+keywords: netapp, saas backup, renew, update, updating, add-on, add, on, license, subscription, extension 
+summary: Sie können eine Lizenz aktualisieren, hinzufügen oder erneuern. 
+---
+= Die Abonnementinformationen aktualisieren
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nach dem Kauf einer Add-on-Lizenz oder einer Abonnementverlängerung können Sie Ihre Abonnementdaten innerhalb von SaaS Backup aktualisieren.
+
+
+NOTE: Jede normale Benutzer-Mailbox, ob geschützt oder ungeschützt, verbraucht eine Lizenz. Freigegebene Postfächer verbrauchen keine Lizenz.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *Services*.
+. Klicken Sie Auf image:configure_icon.gif["Screenshot des Konfigurationssymbol"] In der rechten Ecke.
+. Klicken Sie neben den Abonnementdetails auf *Update*.
+. Geben Sie denselben Benutzernamen und dasselbe Passwort ein, den Sie beim ersten Login verwendet haben.
+. Klicken Sie Auf *Absenden*.
+

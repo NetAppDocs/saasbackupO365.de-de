@@ -1,0 +1,187 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_exchange.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes, self service portal 
+summary: Mit SaaS Backup für Microsoft 365 können granulare Wiederherstellungen für Microsoft Exchange Online 365 durchgeführt werden. 
+---
+= Durchführung einer granularen Wiederherstellung auf Dateiebene für Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Innerhalb von Microsoft Exchange Online können Sie granulare Elemente eines Benutzers wiederherstellen, wie z. B. einzelne E-Mails, Aufgaben, Kontakte und Kalenderereignisse. Sie können auch Objekte auf granularer Ebene für eine Microsoft 365-Gruppen-Mailbox wiederherstellen.
+
+Standardmäßig ist nur das aktuellste Backup für die Wiederherstellung verfügbar. Weitere verfügbare Optionen sind:
+
+image:backup_for_restore_availability.png["Verfügbare Backups zur Wiederherstellung"]
+
+Die Tabelle gibt die Wiederherstellungsoptionen an, die für Objekte auf granularer Ebene für Exchange Online unterstützt werden.
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| Elementtyp | Wiederherstellung derselben Mailbox | Wiederherstellung in eine andere Mailbox | Export in PST/Export in HTML | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Mail/Task/Kontakte/etc
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Exchange Online > Mailboxen - Benutzer
+
+
+
+ a| 
+Single/Multiple Mailbox Folder (Posteingang, Archiv usw.)
+
+*Hinweis*: Schließt Gesprächsverlauf aus.
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Exchange Online > Mailboxen - Benutzer > <Benutzername>
+
+
+
+ a| 
+Ordnerebene unter Posteingang
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Exchange Online > Mailboxen - Benutzer > <Benutzername>
+
+
+
+ a| 
+Unterordnerebene unter Posteingang
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Exchange Online > Mailboxen - Benutzer > <Benutzername>
+
+
+
+ a| 
+Gesprächsverlauf unter Ordner „E-Mail“
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Exchange Online > Mailboxen - Benutzer > <Benutzername>
+
+
+
+ a| 
+Restores auf Einzel-/Mehrfachebene möglich
+ a| 
+Ja.
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Exchange Online > Mailboxen - Benutzer > <Benutzername>
+
+
+
+ a| 
+Einzelne/mehrere Wiederherstellungselemente für „vorhandene Inhalte ersetzen“
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Exchange Online > Mailboxen - Benutzer > <Benutzername>
+
+|===
+.Schritte
+. Klicken Sie im Dashboard im Feld Exchange auf die oben aufgeführte Zahl *GESCHÜTZT*.
++
+image:number_protected_exchange.gif["Screenshot der Anzahl geschützter Instanzen in Exchange"]
+
+. Wählen Sie Ihre Wiederherstellungsoption aus.
++
+.. Klicken Sie für freigegebene Mailboxen auf die Registerkarte *SHARED*.
+.. Für Archivmailboxen klicken Sie auf die Registerkarte *ARCHIVE*.
+.. Bleiben Sie bei normalen Mailboxen auf der Registerkarte *USER*.
+
+
+. Klicken Sie auf die Mailbox, für die Sie die granulare Wiederherstellung durchführen müssen.
+. Stellen Sie vollständige Microsoft Office Exchange-Kategorien wieder her oder stellen Sie ein bestimmtes Objekt in einer Kategorie wieder her. Für eine Mailbox mit Microsoft 365-Gruppen haben Sie nur die Möglichkeit, die E-Mail-Kategorie oder die Kalenderkategorie wiederherzustellen.
+. Wählen Sie die Kategorie (E-Mail, Aufgaben, Kontakte oder andere) aus, die Sie wiederherstellen müssen.
++
+
+NOTE: Wenn Sie ein einzelnes Element innerhalb der Kategorie wiederherstellen möchten, klicken Sie auf die Kategorie, und wählen Sie dann die Elemente aus, die Sie wiederherstellen möchten.
+
+. Klicken Sie Auf *Wiederherstellen*.
+. Wählen Sie eine Wiederherstellungsoption aus.
++
+** *Restore in dieselbe Mailbox*
++
+Wenn Sie dieselbe Mailbox wiederherstellen, wird standardmäßig im ursprünglichen Inhaltsverzeichnis der Backup-Kopie ein Ordner mit dem aktuellen Datum und Zeitstempel erstellt. Wenn Sie *den vorhandenen Inhalt ersetzen* wählen, werden Ihre aktuellen Daten vollständig durch das Backup ersetzt.
+
++
+Für Microsoft 365-Gruppen haben Sie nur die Möglichkeit, die gleiche Mailbox wiederherzustellen. Der vorhandene Inhalt wird standardmäßig ersetzt. Bei Microsoft Exchange Online können Sie das Restore in dieselbe Mailbox durchführen und den vorhandenen Inhalt ersetzen oder eine andere Mailbox wiederherstellen.
+
+** *Wiederherstellen in eine andere Mailbox*
++
+Wenn Sie eine andere Mailbox wiederherstellen, müssen Sie die Ziel-Mailbox im Suchfeld eingeben. Sie können einen Teil der Ziel-E-Mail-Adresse in das Suchfeld eingeben, um eine automatische Suche nach passenden Zielpostfächern zu initiieren.
+
+** *Export in PST*
++
+Sie können auswählen, dass alle Unterordner der Kategorie einbezogen werden sollen.
+
++
+Wenn Sie in PST exportieren, erhalten Sie eine Benachrichtigung E-Mail mit dem Speicherort der PST-Datei, wenn der Export abgeschlossen ist.
+
++
+
+NOTE: Diese Option ist für Microsoft 365 Groups nicht verfügbar.
+
++
+
+NOTE: Wenn Sie die Option *Export to PST* Restore auswählen, ist der bereitgestellte Link sieben Tage lang gültig und ist vorauthentifiziert.
+
+** *Export in Daten* (nur für Microsoft 365 Gruppen verfügbar):
++
+Beim Exportieren werden zwei ZIP-Dateien erstellt, eine ZIP-Datei für Microsoft 365-Gruppen-Mailbox und eine andere ZIP-Datei für Microsoft 365-Gruppen-SharePoint-Sites. Sie erhalten eine Benachrichtigungs-E-Mail mit dem Speicherort der PST-Datei und einer authentifizierten URL zum Speicherort der .zip-Datei.
+
++
+
+NOTE: Wenn Sie die Option *Export to Data* Restore auswählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.
+
+
+
+. Klicken Sie Auf *Bestätigen*.
++
+Es wird eine Meldung angezeigt, die angibt, dass der Wiederherstellungsauftrag erstellt wurde.
+
+. Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt der Wiederherstellung zu überwachen.
+
+
+Informationen zur Verwendung des Self Service Portals zur Wiederherstellung von Elementen für Microsoft Exchange Online finden Sie unter link:reference_about_ssp.hmtl["Über Self Service Portal"].

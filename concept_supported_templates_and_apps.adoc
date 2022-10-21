@@ -1,0 +1,88 @@
+---
+sidebar: sidebar 
+permalink: concept_supported_templates_and_apps.html 
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps 
+summary: Für Microsoft SharePoint Online werden nur bestimmte Vorlagen und Apps unterstützt. 
+---
+= Vorlagen und Applikationen werden für Backups in Microsoft SharePoint Online unterstützt
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Für Microsoft SharePoint Online-Backups werden nur bestimmte Vorlagen und bestimmte Apps unterstützt.
+
+
+
+== Unterstützte Vorlagen
+
+Für Microsoft SharePoint Online-Backups werden nur die folgenden Vorlagen unterstützt.
+
+* STS#0 (Teamstandort)
+* BLOG#0 (Blog-Site)
+* ENTW#0 (Entwickler-Site)
+* PROJECTSITE#0 (Projektstandort)
+* COMMUNITY#0 (Community-Website)
+* BDR#0 (Dokumentenzentrum)
+* COMMUNITYPORTAL#0 (Community Portal)
+* ENTERWIKI#0 (Enterprise WIKI)
+* EHS#1 (Root-Standort)
+* EHS#0 (Root-Standort)
+* SITEPAGEPUBLISHING#0 (Kommunikationsstelle)
+* GRUPPE#0 (Präfix für die Websitesammlung der Gruppe)
+* STS#1 (leere Stelle)
+* STS#2 (Dokumentarbeitsbereich)
+* STS#3 (moderner Teamstandort)
+* APP#0 (App-Vorlage)
+
+
+
+
+== Unterstützte Applikationen
+
+Die folgenden Applikationen werden für Microsoft SharePoint Online-Backups unterstützt.
+
+* Benutzerdefinierte Liste
+* Abzeichen (Community-Site)
+* Dokumentbibliothek
+* Stilbibliothek
+* Umfrage
+* Verlinken
+* Ankündigung
+* Kontakt
+* Kalender
+* Diskussionscenboard
+* Fotos
+* Bildergalerie
+* Content Web Parts
+* Liste Vorlagen Galerie
+* Galerie Der Masterseite
+* Seiten Der Website
+* Benutzerdefinierte Liste in der Datensatzansicht
+* Solution Gallery
+* Themengalerie
+* Komponierte Looks
+* Heraufgestuft Links
+* Aufgaben
+* Beiträge (Blog-Site)
+* Kommentare (Blog-Site)
+* Community-Diskussionen (Community-Website)
+* Kategorien (Blog-Site)
+* Community-Kategorien (Community-Site)
+* Bericht
+* Wiki-Seiten
+* Site Collection-Bilder
+* Community-Mitglieder (Community-Seite)
+* Fehlerverfolgung
+* Datensatzbibliothek
+* Links Für Die Gemeinsame Nutzung
+

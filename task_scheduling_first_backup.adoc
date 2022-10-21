@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_first_backup.html 
+keywords: netapp, saas backup, microsoft 365, getting started, schedule, scheduling, first, performing 
+summary: Wenn Sie SaaS Backup für Microsoft 365 einrichten, sind Ihre Daten standardmäßig ungeschützt und nicht für ein Backup geplant. Sie müssen Ihre Daten auf eine geschützte Ebene verschieben, um das erste Backup zu initiieren. 
+---
+= Planen Sie Ihr erstes Backup
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Wenn Sie SaaS Backup für Microsoft 365 einrichten, sind die Daten standardmäßig nicht geschützt. Sie müssen Ihre Daten von der ungeschützten Tier in eine der geschützten Tiers verschieben, sodass Ihre Daten während des nächsten geplanten Backups der ausgewählten Tier gesichert werden.
+
+.Schritte
+. Wählen Sie im Dashboard den Service aus, der die nicht geschützten Daten enthält.
+. Klicken Sie auf *Ansicht* neben der Anzahl ungeschützter Mailboxen, MySites oder Gruppen.
+. Wählen Sie die Elemente aus, die Sie schützen möchten.
+. Klicken Sie auf das Menü *Gruppen*.image:groups_menu.gif["Screenshot der Menütaste SaaS Backup Groups"]
+. Wählen Sie die *Tier* für die Sicherungsrichtlinie aus, die Sie zuweisen möchten. Siehe link:concept_backup_policies.html["Backup-Richtlinien"] Eine Beschreibung der Backup Policy Tiers erhalten Sie hier.
+. Klicken Sie Auf *Anwenden*.
+

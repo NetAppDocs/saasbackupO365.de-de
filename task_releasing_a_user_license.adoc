@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_releasing_a_user_license.html 
+keywords: netapp, saas backup, release, releasing, reassigned, user, license, shared, regular, archive, mailbox 
+summary: Jeder normale oder Archiv-Mailbox-Benutzer, ob geschützt oder ungeschützt, verbraucht eine Lizenz. Wenn eine Lizenz für einen bestimmten Benutzer nicht mehr benötigt wird, können Sie die Lizenz freigeben, damit sie neu zugewiesen werden kann. 
+---
+= Freigabe einer Benutzerlizenz
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Jeder normale oder Archiv-Mailbox-Benutzer, ob geschützt oder ungeschützt, verbraucht eine Lizenz. Wenn eine Lizenz für einen bestimmten Benutzer nicht mehr benötigt wird, können Sie die Lizenz freigeben, damit sie neu zugewiesen werden kann. Wenn eine Benutzerlizenz freigegeben wird, wird der Benutzer in die ungeschützte Stufe verschoben und die Backups für diesen Benutzer werden eingestellt.
+
+
+NOTE: Freigegebene Postfächer verbrauchen keine Lizenz.
+
+.Schritte
+. Klicken Sie Auf image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben Ihrer SaaS Backup Benutzer-id oben links.
+. Wählen Sie *KONTOEINSTELLUNGEN*.
+. KLICKEN SIE AUF *BEIBEHALTEN UND LÖSCHEN*.
+. Geben Sie unter *Release License* den Kontonamen für den Benutzer ein, dessen Lizenz Sie freigeben möchten.
+. Wenn das Konto gefunden wird, wählen Sie es in der Liste mit automatisch ausgefüllten Daten aus, und klicken Sie auf image:bluecircle_icon.gif["Blaues Pluszeichen-Symbol"].
+. Fügen Sie bei Bedarf weitere Konten hinzu.
+. Klicken Sie Auf *Freigabe*.
+. Klicken Sie auf *Ja, geben Sie die Lizenz(en)* frei.
+. Klicken Sie Auf *Bestätigen*.
+

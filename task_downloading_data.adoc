@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_data.html 
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, download, downloading 
+summary: Sie können ein Protokoll der SaaS Backup-Aktivitäten und des Jobverlaufs anzeigen oder herunterladen. 
+---
+= Protokolle herunterladen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup für Microsoft 365 speichert ein Protokoll Ihrer beruflichen Historie innerhalb des SaaS Backup. Sie können den Jobverlauf und eine Liste der abgeschlossenen Jobs herunterladen.
+
+
+
+== Laden Sie das Aktivitätsprotokoll herunter
+
+Ein Protokoll wird von allen Aktivitäten gespeichert, die innerhalb von SaaS Backup für Microsoft 365 durchgeführt werden. Das Protokoll enthält das Datum jeder durchgeführten Aktion sowie den Namen des Benutzers, der die Aktion ausgeführt hat. Sie können das Aktivitätsprotokoll in eine .csv-Datei herunterladen.
+
+.Schritte
+. Klicken Sie Auf image:reporting.gif["Screenshot der Schaltfläche „Reporting“"] Im linken Navigationsbereich.
+. Klicken Sie auf die Registerkarte *Aktivitätsprotokoll*. Eine Liste aller SaaS Backup für Microsoft 365 Aktivitäten wird angezeigt.
+. Klicken Sie Auf image:download_activitylog.gif["Screenshot der Download-Schaltfläche rechts im Aktivitätenprotokoll"]. Das Aktivitätsprotokoll wird als .csv-Datei heruntergeladen.
+
+
+
+
+== Laden Sie ein Protokoll von abgeschlossenen Jobs herunter
+
+Sie können eine Excel-Tabelle mit erfolgreich abgeschlossenen Jobs herunterladen.
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *Jobs*.
+. Klicken Sie auf den kürzlich abgeschlossenen Job, den Sie herunterladen möchten.
+. Klicken Sie unter der Anzahl der erfolgreich abgeschlossenen Jobs auf *erfolgreich*.
++
+image:completed_jobs.gif["Screenshot von abgeschlossenen Jobs"]
+
+. Klicken Sie oben rechts auf *Download*. Das Protokoll wird heruntergeladen.
+

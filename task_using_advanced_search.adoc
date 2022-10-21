@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: task_using_advanced_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange 
+summary: Sie können die erweiterte Suche aktivieren, um in Microsoft 365 Exchange Online nach gesicherten Elementen zu suchen. 
+---
+= Verwenden Sie die erweiterte Suche nach Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können *Erweiterte Suche* für Microsoft Exchange Online verwenden, um nach einzelnen oder freigegebenen Postfachelementen zu suchen und diese in ihrem ursprünglichen Postfach wiederherzustellen.
+
+Administratoren können *Erweiterte Suche* aktivieren, indem Sie auf gehen link:https://mysupport.netapp.com/["Unterstützung"] Und Senden eines Antrags. Sie können das SaaS Backup Support-Team auch per E-Mail an saasbackupsupport@netapp.com senden.
+
+Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal (SSP) für einzelne Mieter aktivieren. Wenn Sie vor der ersten Sicherung *Erweiterte Suche* nicht aktivieren, werden keine Suchergebnisse angezeigt. Weitere Informationen über Self-Service-Portal finden Sie unter link:reference_about_ssp.html["Über Self Service Portal"].
+
+image:advanced_search_settings_exchange.png["Ein Screenshot der erweiterten Sucheinstellungen"]
+
+*  Advanced Search
+*  a search
+*  previous search jobs
+
+
+
+
+== Aktivieren Sie Die Erweiterte Suche
+
+Sie können die Funktion *Erweiterte Suche* in den erweiterten Sucheinstellungen aktivieren.
+
+
+NOTE: Lizenzierte und nicht lizenzierte Benutzer können die erweiterte Suchfunktion verwenden, wenn diese aktiviert ist.
+
+.Schritte
+. Klicken Sie im linken Menü auf *Erweiterte Suche*.
+. Klicken Sie Auf *Erweiterte Sucheinstellungen*.
++
+** Standardmäßig werden in der Liste alle lizenzierten Benutzer angezeigt. Wechseln Sie zwischen *Alle Benutzer anzeigen* und *nur anzeigen lizenzierte Benutzer*, um den Benutzertyp in der Liste zu filtern.
+** Verwenden Sie das Suchtool, und geben Sie mindestens drei Zeichen ein, um einen eindeutigen Benutzer zu finden.
+
+
+. Um einen Benutzer zu aktivieren, wählen Sie in der Spalte *Erweiterte Suche* die Option *ein* aus. Wenn Sie den aktivierten Benutzer beim nächsten Schutz in einem vollständigen oder inkrementellen Backup sichern, können Sie nach neuen E-Mail-Elementen suchen.
+. Klicken Sie Auf *Einstellungen Speichern*.
+. Um die aktivierten Benutzer zu sichern, gehen Sie zu link:task_scheduling_backup_or_changing_frequency.html["Planen eines Backups oder Ändern der Backup-Häufigkeit"] Und bleiben Sie auf der Registerkarte *Benutzer*, um die Benutzer für die Sicherung auszuwählen.
+
+
+
+
+== Führen Sie eine Suche durch
+
+Sie können eine Suche nach einzelnen oder gemeinsam genutzten Postfachelementen durchführen und diese Elemente in ihrem ursprünglichen Postfach unter *Suche durchführen* wiederherstellen.
+
+.Schritte
+. Klicken Sie im linken Menü auf *Erweiterte Suche*.
+. Klicken Sie Auf *Suche Durchführen*.
+. Geben Sie die erforderlichen Felder mit einem Sternchen (*) ein. Optionale Felder: Bedingungen und Abfragebedingungen.image:advanced_search_box.png["Bild zeigt führen Suchoptionen mit zwei erforderlichen Elementen durch"]
++
+** *Benutzer auswählen*: Geben Sie mindestens drei Buchstaben in den Namen des Benutzers ein, um den gewünschten Benutzer zu finden.
+** *Suche*: Geben Sie mindestens drei Zeichen in ein Schlüsselwort ein. Wenn Sie eine Phrase suchen möchten, legen Sie die Wörter in den Satz innerhalb Zitate (Beispiel: "Hallo Welt"). Wenn die Wörter separat durchsucht werden können, sind keine Anführungszeichen erforderlich.
+** *Exact match*: Wählen Sie aus, wenn Sie nur nach den genauen Stichwörtern suchen möchten.
+** *Bedingungen*:
++
+*** *Items*: Wählen Sie Elemente aus, um nach allen Elementen im Postfach zu suchen.
+*** *Ordnername*: Wählen Sie den Ordnernamen, um nach Elementen in einem bestimmten Ordner im Postfach zu suchen. Geben Sie den Ordnernamen in das dafür vorgesehene Textfeld ein.
+
+
+** *Datumsbereich*: Wählen Sie im Dropdown-Menü Datumsbereich entweder *Letzte 7 Tage* oder *benutzerdefinierter Bereich*, um das Start- und Enddatum für die Suche einzugeben.
+** *Größe in Bytes*: Wählen Sie im Dropdown-Menü Größe Bytes entweder *größer als (>)* oder *weniger als (<)* aus. Geben Sie dann die Größe in Byte ein.
+** *Von*: Geben Sie die E-Mail-Adresse für den Absender ein.
+** *Bis*: Geben Sie die E-Mail-Adresse für den Empfänger ein.
+** *Betreff*: Wählen Sie, um nur nach Betreff zu suchen.
+** *Hat Anhang*: Wählen Sie aus, ob der E-Mail-Artikel oder die E-Mail-Elemente Anhänge haben.
+
+
+. Klicken Sie Auf *Suchen*.
+. Um Ihren Suchauftrag zu finden, gehen Sie weiter unten zu Suchen Vorherige Suchjobs.
+
+
+
+
+== Frühere Suchaufträge suchen
+
+Frühere Suchjobs finden Sie unter *Vorherige Suche Jobs*.
+
+.Schritte
+. Klicken Sie im linken Menü auf *Erweiterte Suche*.
+. Klicken Sie Auf *Vorherige Suche Jobs*.
+. Suchen Sie den zuvor durchgeführten Suchauftrag. Wenn keine Suchergebnisse angezeigt werden, bedeutet dies, dass keine Elemente den Bedingungen entsprechen, die Sie für Ihre Suche eingegeben haben.
+. Klicken Sie auf die Anzahl der Suchergebnisse, um sie anzuzeigen.
+. In der Ergebnisansicht können Sie Elemente wiederherstellen, auswählen, wie viele Einträge mit dem Dropdown-Menü *Anzeigen # Einträge* angezeigt werden, oder suchen, um die Ergebnisse weiter einzugrenzen.
++
+image:search_results_display_view.png["Bild zeigt die Anzeige der Suchergebnisse mit Highlights für die Wiederherstellung, Anzahl der Einträge und Suchfunktionen"]
+
++
+
+NOTE: Wiederhergestellte Elemente gehen mit der Namenskonvention CC_search_MM.DD_time zurück in die ursprüngliche Mailbox. Um den Wiederherstellungsauftrag zu finden, gehen Sie im linken Menü auf *Jobs*.
+
+. Um die Ergebnisanzeige für Ihre Suche zu verlassen, klicken Sie auf *Zurück zur Jobsuche*.
+

@@ -1,0 +1,398 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_teams.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft TeamsChat, conversations, channels 
+summary: Sie können SaaS Backup für Microsoft 365 Gruppen/Teams verwenden, um Restores auf granularer Ebene durchzuführen. 
+---
+= Führen Sie ein granulares Restore für Microsoft 365 Gruppen und Teams durch
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Innerhalb von Microsoft 365 Groups und Teams können Sie Elemente auf granularer Ebene wie Mailboxen, SharePoint, Gespräche, Kanäle und Registerkarten wiederherstellen.
+
+Standardmäßig ist nur das aktuellste Backup für die Wiederherstellung verfügbar. Weitere verfügbare Optionen sind:
+
+image:backup_for_restore_availability.png["Verfügbare Backups zur Wiederherstellung"]
+
+Die Tabelle zeigt die Restore-Optionen, die für Objekte auf granularer Ebene unterstützt werden und wo sie in SaaS Backup zu finden sind.
+
+Für *Gruppen*
+
+[cols="20a,20a,20a,20a,40a"]
+|===
+| Elementtyp | Wiederherstellung in derselben Gruppe | In andere Gruppe wiederherstellen | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Einzelne/mehrere Ordner
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Groups > (Gruppenname) > Mailbox
+
+
+
+ a| 
+Posteingang
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Groups > (Gruppenname) > Mailbox
+
+
+
+ a| 
+Single/Multiple Items (E-Mail oder Event)
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Office 365 Groups > Groups > (Gruppenname) > Mailbox > Mail
+
+|===
+Für *Teams*
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| Elementtyp | Restore ins gleiche Team | Restore in ein anderes Team | Daten exportieren | Wo finden Sie es im SaaS Backup 
+
+
+ a| 
+Einzelne/mehrere Ordner
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Teams > (Teamname) > Mailbox
+
+
+
+ a| 
+Posteingang
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Teams > (Teamname) > Mailbox > E-Mail
+
+
+
+ a| 
+Single/Multiple Items (E-Mail oder Event)
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Office 365 Groups > Teams > (Teamname) > Mailbox > E-Mail
+
+
+
+ a| 
+Gespräche/Chat
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Ja (nur in HTML exportieren)
+ a| 
+* Office 365 Groups > Teams > (Teamname) > Mailbox > Conversations > Team Chat
+* Office 365 Gruppen > Teams > (Teamname) > Mailbox > E-Mail > Gesprächsverlauf > Team Chat (tatsächliche Position)
+
+
+
+
+ a| 
+Gespräch mit einem oder mehreren Elementen
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Ja (nur in HTML exportieren)
+ a| 
+Office 365 Gruppen > Teams > (Teamname) > Mailbox > Gesprächsverlauf > Team-Chat
+
+
+
+ a| 
+Ein-/mehrere Kanäle
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Office 365 Groups > Teams > (Teamname) > Channels
+
+*Hinweis*: Restore enthält nur Kanalnamen und Registerkartennamen.
+
+
+
+ a| 
+Registerkarten unter Kanälen
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Office 365 Groups > Teams > (Teamname) > Channels
+
+
+
+ a| 
+Kanal-Standarddokumente
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Teams > (Teamname > SharePoint-Site > Dokumente > (Kanalname)
+
+
+
+ a| 
+Private Channel-Dokumente
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+SharePoint > (Name der privaten Channel-Site) > Dokumente > (Name des privaten Kanals)
+
+*Hinweis*: Hier finden Sie eine separate Websitesammlung mit dem Namen „<Ihr Teamname – Private Channel Name>“. Sie können nach diesen Websitesammlungen filtern mit Template ID: TEAMCHANNEL#0.
+
+
+
+ a| 
+OneNote-Inhalt
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Teams > (Teamname) > SharePoint-Site > Dokumente > (Kanalname)
+
+
+
+ a| 
+Wiki-Inhalte
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+Office 365 Groups > Teams > (Team-Name) > SharePoint Site > Teams Wiki Data > (Channel-Name)
+
+
+
+ a| 
+Dateien
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Office 365 Groups > Teams > (Teamname) > SharePoint-Site > Dokumente > (Kanalname)
+
+
+
+ a| 
+Individueller User-Chat und Gruppen-Chats
+
+*Hinweis*: Chats sind in Exchange Online-Backups enthalten.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+Ja.
+ a| 
+* Austausch > „Benutzer“ > E-Mail > Gespräche > Team Chat
+* Exchange > „Benutzer“ > E-Mail > Gesprächsverlauf > Team Chat
+
+
+
+
+ a| 
+Dateien im individuellen Benutzer-Chat und Gruppen-Chats
+
+*Hinweis*: Dateien in OneDrive for Business Backups enthalten.
+ a| 
+Ja.
+ a| 
+Nein
+ a| 
+Nein
+ a| 
+OneDrive > „Benutzer“ > Dateien > Microsoft Teams Chat-Dateien
+
+|===
+
+
+== Wiederherstellung von Mailboxen
+
+Wählen Sie diese granulare Wiederherstellung aus, um Inboxen, Kalender und Gesprächsverlauf wiederherzustellen.
+
+.Schritte
+. Klicken Sie im Dashboard in *Microsoft 365 Groups* auf die oben aufgeführte Zahl *GESCHÜTZT*.
+. Wählen Sie die Registerkarte *Gruppen* oder *Teams* aus.
+. Klicken Sie auf die Gruppe oder das Team, für die Sie die granulare Wiederherstellung durchführen müssen.
+. Wählen Sie die Mailbox-Kategorie aus.
++
+image:granular_level_restore_mailbox_option.gif["Bild der hervorgehobenen Mailbox-Option"]
+
++
+
+NOTE: Für Gruppen ist *Channels* nicht verfügbar.
+
++
+** Wählen Sie die Option *Mail* aus, um den Posteingang oder den Gesprächsverlauf in dieselbe Mailbox oder die Daten zu exportieren.image:granular_level_restore_mailbox_mail_option.gif["Bild der hervorgehobenen E-Mail-Option"]
++
+
+NOTE: Für Gruppen ist *Conversations* nicht verfügbar.
+
++
+... Um einen Posteingang wiederherzustellen, wählen Sie *Posteingang* und klicken Sie auf *Wiederherstellen*.
++
+.... Wählen Sie *Wiederherstellen in derselben Mailbox* oder *Daten exportieren*.
++
+Wenn Sie Daten exportieren, müssen Sie sie herunterladen. Gehen Sie im linken Menü zu *Reporting*. Suchen Sie Ihren Exportdatenauftrag. Klicken Sie auf *Total Folders*. Klicken Sie dann auf *Datendownload-Link exportieren*. Eine ZIP-Datei wird heruntergeladen. Öffnen Sie die ZIP-Datei, um die Daten zu extrahieren.
+
++
+
+NOTE: Wenn Sie die Option *Daten exportieren* wiederherstellen wählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.
+
+.... Klicken Sie Auf *Bestätigen*.
+
+
+
+
+** Wählen Sie die Option *Kalender* aus, um den Kalender in dieselbe Mailbox wiederherzustellen oder Daten zu exportieren.image:granular_level_restore_mailbox_calendar_option.gif["Bild der markierten Kalenderoption"]
++
+... Wählen Sie *Kalender* und klicken Sie auf *Wiederherstellen*.
+... Wählen Sie *Wiederherstellen in derselben Mailbox* oder *Daten exportieren*.
++
+Wenn Sie Daten exportieren, müssen Sie sie herunterladen. Wechseln Sie im linken Menü zur Meldung. Suchen Sie Ihren Exportdatenauftrag. Klicken Sie auf *Total Folders*. Klicken Sie dann auf *Datendownload-Link exportieren*. Eine ZIP-Datei wird heruntergeladen. Öffnen Sie die ZIP-Datei, um die Daten zu extrahieren.
+
++
+
+NOTE: Wenn Sie die Option *Daten exportieren* wiederherstellen wählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.
+
+... Klicken Sie Auf *Bestätigen*.
+
+
+** Wählen Sie die Option *Conversations* aus, um Gespräche wiederherzustellen. Die einzige Möglichkeit zur Wiederherstellung ist der Export in HTML.image:granular_level_restore_mailbox_conversations_option.gif["Bild der Option hervorgehobene Gespräche"]
++
+... Wählen Sie die Gespräche aus, die Sie wiederherstellen möchten, und klicken Sie auf *Wiederherstellen*.
++
+
+NOTE: *View Conversations* zeigt Ihnen eine Liste aller Gespräche aus den letzten "x" Tagen der Backups bis zu den letzten 30 Backups. Wenn Sie z. B. sieben Mal in den letzten fünf Tagen sichern, können Sie nur Gespräche aus den letzten sieben Backups sehen.
+
+... Klicken Sie Auf *Bestätigen*.
+
+
+
+
+
+
+
+
+== Wiederherstellung von SharePoint Sites
+
+Wählen Sie diese granulare Wiederherstellung aus, um Registerkarten und Anhänge wiederherzustellen.
+
+.Schritte
+. Klicken Sie im Dashboard in *Microsoft 365 Groups* auf die oben aufgeführte Zahl *GESCHÜTZT*.
+. Wählen Sie die Registerkarte *Gruppen* oder *Teams* aus.
+. Klicken Sie auf die Gruppe oder das Team, für die Sie die granulare Wiederherstellung durchführen müssen.
+. Wählen Sie die Option SharePoint-Site aus.image:granular_level_restore_sharepoint_site_option.gif["Bild der markierten Seiten Option"]
+. Klicken Sie auf die Site, für die Sie die granulare Wiederherstellung durchführen müssen.
+. Wählen Sie die Kategorie aus, die Sie wiederherstellen müssen.
++
+
+NOTE: Wenn Sie bestimmte einzelne Elemente in einer Kategorie wiederherstellen möchten, klicken Sie auf die Inhaltskategorie, und wählen Sie anschließend die einzelnen Elemente aus.
+
+. Klicken Sie Auf *Wiederherstellen*.
+. Wählen Sie eine Wiederherstellungsoption aus:
++
+** *Wiederherstellen auf demselben Standort*
++
+Wenn Sie auf demselben Standort wiederherstellen, wird standardmäßig ein Ordner mit dem aktuellen Datum und dem aktuellen Zeitstempel an dem ursprünglichen Dateispeicherort erstellt, der die Sicherungskopie enthält. Wenn Sie die Option *Überschreiben mit Merge* wählen, wird kein Wiederherstellungsordner erstellt. Wenn die Version der Sicherungsdatei und die aktuelle Datei übereinstimmen, wird das Backup am ursprünglichen Speicherort wiederhergestellt. Neue Inhalte des Ziels werden ignoriert und nicht beeinträchtigt. Wenn das Backup z. B. die Datei1-Version 5 enthält und das Ziel File1 Version 6 enthält, schlägt eine Wiederherstellung mit der ausgewählten Option *Überschreiben mit Zusammenführen* fehl. Wenn Sie die Option *vorhandenen Inhalt ersetzen* wählen, wird die aktuelle Version der Daten vollständig durch die Sicherungskopie ersetzt.
+
+** *Daten Exportieren*
++
+Wenn Sie Daten exportieren, müssen Sie sie herunterladen. Wechseln Sie im linken Menü zur Meldung. Suchen Sie Ihren Exportdatenauftrag. Klicken Sie auf *Total Folders*. Klicken Sie dann auf *Datendownload-Link exportieren*. Eine ZIP-Datei wird heruntergeladen. Öffnen Sie die ZIP-Datei, um die Daten zu extrahieren.
+
++
+
+NOTE: Wenn Sie die Option *Daten exportieren* wiederherstellen wählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.
+
+
+
+. Klicken Sie Auf *Bestätigen*.
+
+
+
+
+== Sender wiederherstellen
+
+Wählen Sie diese granulare Wiederherstellung aus, um Kanäle wiederherzustellen.
+
+.Schritte
+. Klicken Sie im Dashboard in *Microsoft 365 Groups* auf die oben aufgeführte Zahl *GESCHÜTZT*.
+. Wählen Sie die Registerkarte *Teams*.
+. Klicken Sie auf das Team, für das Sie die granulare Wiederherstellung durchführen müssen.
+. Wählen Sie *Kanäle*.image:granular_level_restore_channel_option.gif["Bild der Option hervorgehobene Sender"]
+. Wählen Sie den wiederherzustellenden Sender aus.
+. Klicken Sie Auf *Wiederherstellen*.
+. Wählen Sie die Wiederherstellungsoption:
++
+.. Klicken Sie auf *Wiederherstellen mit demselben Team*.
+.. Klicken Sie auf *Wiederherstellen zu einem anderen Team*.
++
+Um ein anderes Team auszuwählen, suchen Sie im Suchfeld nach dem anderen Team.
+
+
+
+. Klicken Sie Auf *Bestätigen*.
+

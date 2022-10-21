@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_user_defined_filter.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+summary: Sie können die Ansicht Ihrer Mailboxen, Websites oder MySites filtern, um nur Ergebnisse anzuzeigen, die bestimmten Kriterien entsprechen. 
+---
+= Erstellen Sie einen benutzerdefinierten Filter
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können die Ansicht Ihrer Mailboxen, Websites oder MySites filtern, um nur Ergebnisse anzuzeigen, die bestimmten Kriterien entsprechen. Sie können beispielsweise festlegen, dass Ihre Filter nur Postfächer in einem bestimmten Land und einer bestimmten Abteilung in diesem Land sehen.
+
+.Schritte
+. Klicken Sie im Dashboard auf die oben genannte Zahl *GESCHÜTZT* oder *UNGESCHÜTZT* in der Box des Dienstes, für den Sie einen Filter erstellen möchten. Die oben geschützte Zahl gibt die Anzahl der Mailboxen, MySites oder Gruppen an, die derzeit durch eine Backup-Richtlinie geschützt sind. Die oben UNGESCHÜTZTE Zahl gibt die Anzahl der Mailboxen, MySites oder Gruppen an, die nicht durch eine Sicherungsrichtlinie geschützt sind.
++
+image:number_protected_unprotected.gif[""]
+
+. Klicken Sie Auf *Filter*.
++
+image:filter.gif["Screenshot der Dropdown-Menü-Schaltfläche „Filter“"]
+
+. Klicken Sie auf das Dropdown-Menü *Auswählen* und wählen Sie den gewünschten Filter aus.
++
+Für Microsoft SharePoint Online können Sie nach Vorlagen-ID filtern. Sie können die Vorlagen-ID eingeben, nach der gesucht werden soll, oder sie im Dropdown-Menü auswählen.
+
++
+Für alle anderen Dienste können Sie nach Gruppe, Land, Büro, Abteilung, Titel, Domäne oder Land. Wenn Sie über Sicherheitsgruppen verfügen, werden diese auch als Filteroptionen aufgelistet.
+
++
+Das zweite Dropdown-Menü ist mit einer Auswahl auf der Grundlage des ausgewählten Filters gefüllt. Wenn Sie beispielsweise als ersten Filter Gruppe auswählen, können Sie eine der Gruppen für Sicherungsrichtlinien als sekundären Filter auswählen.
+
++
+image:select_filter.gif["Screenshot der ersten Filteroptionen"]
+
++
+Ein Suchfeld wird angezeigt.
+
+. Geben Sie Ihre Suchkriterien ein.
+. Wenn Sie weitere Filter hinzufügen möchten, klicken Sie auf *Filter hinzufügen* und wählen Sie Ihre Auswahl aus.
+. Klicken Sie Auf *Filter Anwenden*. Die Filterergebnisse werden angezeigt.
+

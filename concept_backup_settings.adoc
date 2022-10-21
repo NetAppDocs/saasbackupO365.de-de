@@ -1,0 +1,120 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: Sie können Ihre Backup-Einstellungen aktualisieren, um verschiedene Backup-Optionen zu steuern. Die verfügbaren Backup-Einstellungen variieren je nach Service. 
+---
+= Backup-Einstellungen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Ihre Backup-Einstellungen aktualisieren, um verschiedene Backup-Optionen zu steuern. Die verfügbaren Backup-Einstellungen variieren je nach Service.
+
+
+
+== Backup-Einstellungen pro Service
+
+[cols="12,64,24,24"]
+|===
+| Backup-Einstellung | Beschreibung | Aktiviert | Verfügbar in... 
+
+
+| Automatische Synchronisierung  a| 
+Aktiviert die automatische geplante Synchronisierung von neu hinzugefügten oder gelöschten Benutzern, OneDrives oder Websitesammlungen alle 24 Stunden.
+| Standardmäßig  a| 
+* Microsoft Exchange Online
+* Microsoft SharePoint Online
+* Microsoft OneDrive für Unternehmen
+* Microsoft 365 Gruppen
+
+
+
+
+| Aktivieren Sie OneNote Backup  a| 
+Ermöglicht die Sicherung von OneNote-Notebooks.
+| Manuell  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive für Unternehmen
+
+
+
+
+| Aktivieren Sie die Wiederherstellung wiederherstellbarer Objekte  a| 
+Ermöglicht dem Benutzer, wiederherstellbare Elemente von Microsoft Exchange wiederherzustellen.
+| Manuell  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Backup von wiederherstellbaren Elementen aktivieren  a| 
+Ermöglicht das Backup von Microsoft Exchange wiederherstellbaren Elementen. Nur die Tier 1-Backup-Richtlinie ermöglicht das Backup wiederherstellbarer Elemente.
+| Manuell  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Inklusive Workflows  a| 
+Umfasst Workflows im Backup.
+| Manuell  a| 
+* Microsoft SharePoint Online
+* Microsoft 365 Gruppen
+
+
+
+
+| Listenansichten Einschließen  a| 
+Enthält Listenansichten im Backup.
+| Manuell  a| 
+* Microsoft SharePoint Online
+* Microsoft 365 Gruppen
+
+
+
+
+| Versionsverlauf Einschließen  a| 
+Ermöglicht die Wartung mehrerer Dateiversionen im Backup.
+
+
+NOTE: Diese Einstellung gilt nur für einzelne Dateien. Sie gilt nicht für ganze Ordner, Ebenen oder Dienste.
+| Standardmäßig  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive für Unternehmen
+* Microsoft 365 Gruppen
+
+
+
+
+| Anzahl der Versionen  a| 
+Legt die Anzahl der zu pflegen Backup-Dateiversionen fest. Standardmäßig wird die aktuellste Version automatisch gesichert, auch wenn diese Einstellung nicht aktiviert ist.
+| Sind standardmäßig auf 20 festgelegt  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive für Unternehmen
+* Microsoft 365 Gruppen
+
+
+|===
+
+
+== Backup-Einstellungen aktualisieren
+
+.Schritte
+. Klicken Sie im linken Navigationsbereich auf *Services*.
++
+image:services.gif["Screenshot der Service-Schaltfläche"]
+
+. Klicken Sie Auf Microsoft 365.
++
+image:mso365_settings.gif["Screenshot der Microsoft 365 Schaltfläche"]
+
+. Klicken Sie unter *Dienste verwalten* auf das Symbol Backup-Einstellungen image:configure_icon.gif["Screenshot des Konfigurationssymbol"] Neben dem Dienst, den Sie aktualisieren müssen. Eine Liste der für den ausgewählten Dienst verfügbaren Backup-Einstellungen wird angezeigt.
+. Wählen Sie die gewünschten Backup-Einstellungen aus.
+. Klicken Sie Auf *Bestätigen*.
+
