@@ -19,7 +19,7 @@ summary: Sie können Ihre Backup-Einstellungen aktualisieren, um verschiedene Ba
 
 
 [role="lead"]
-Sie können Ihr aktualisieren #backup-settings,Backup-Einstellungen Zur Steuerung verschiedener Backup-Optionen. Verfügbar #backup-settings,Backup-Einstellungen Je nach Service variieren.
+Sie können Ihr aktualisieren <<concept_backup_settings.adoc#backup-settings,Backup-Einstellungen>> Zur Steuerung verschiedener Backup-Optionen. Verfügbar <<concept_backup_settings.adoc#backup-settings,Backup-Einstellungen>> Je nach Service variieren.
 
 .Schritte
 . Klicken Sie im linken Navigationsbereich auf *Services*.

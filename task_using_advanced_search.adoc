@@ -22,9 +22,9 @@ Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal 
 
 image:advanced_search_settings_exchange.png["Ein Screenshot der erweiterten Sucheinstellungen"]
 
-*  Advanced Search
-*  a search
-*  previous search jobs
+* <<Aktivieren Sie Die Erweiterte Suche>>
+* <<Führen Sie eine Suche durch>>
+* <<Frühere Suchaufträge suchen>>
 
 
 

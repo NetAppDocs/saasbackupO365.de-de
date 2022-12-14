@@ -14,7 +14,7 @@ summary: Sie können eine Lizenz hinzufügen oder freigeben.
 
 
 [role="lead"]
-Wenn Sie gerade eine Lizenz für ein kostenpflichtiges Abonnement erhalten haben, folgen Sie bitte #workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,Workflow für die ersten Schritte mit einem kostenpflichtigen Abonnement. Sie geben Ihren Lizenzschlüssel als Teil des Workflows ein.
+Wenn Sie gerade eine Lizenz für ein kostenpflichtiges Abonnement erhalten haben, folgen Sie bitte <<concept_paid_subscription_workflow.adoc#workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,Workflow für die ersten Schritte mit einem kostenpflichtigen Abonnement>>. Sie geben Ihren Lizenzschlüssel als Teil des Workflows ein.
 
 Wenn Sie SaaS Backup bereits verwenden, können Sie mit diesen Schritten zusätzliche Lizenzen hinzufügen.
 

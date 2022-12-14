@@ -20,7 +20,7 @@ Sie können Regeln für Microsoft Exchange Online, OneDrive for Business, ShareP
 
 Sie müssen einen benutzerdefinierten Filter auf Ihre Daten anwenden, bevor Sie eine Regel erstellen können. Angewendete Filter werden unterhalb des Symbols *Filter* angezeigt. NetApp SaaS Backup für Microsoft 365 Standardfilter werden grau angezeigt. Benutzerdefinierte Filter werden hellblau angezeigt.image:rules.gif["Beispiel für benutzerdefinierten Filter und definierten SaaS-Backup-Filter zum Erstellen von Regeln"]
 
-#creating-user-defined-filter,Erstellen Sie einen benutzerdefinierten Filter
+<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,Erstellen Sie einen benutzerdefinierten Filter>>
 
 Sie können mehrere Regeln erstellen. Die Regeln werden in der Reihenfolge angewendet, in der sie in der Liste *Regeln verwalten* angezeigt werden.
 

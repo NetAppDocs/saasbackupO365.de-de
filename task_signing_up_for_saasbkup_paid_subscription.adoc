@@ -41,6 +41,7 @@ Sie können sich bei SaaS Backup für Microsoft 365 mit Ihrem Microsoft 365-Serv
 
 == Melden Sie sich mit einem NetApp SSO Konto an
 
+.Bevor Sie beginnen
 Zur Validierung Ihres Abonnements müssen Sie über eine NetApp SSO-Benutzer-ID und ein Passwort verfügen. Wenn Sie kein NetApp SSO-Konto besitzen, besuchen Sie https://mysupport.netapp.com/eservice/public/now.do[] Um sich für eine zu registrieren. Nach Bearbeitung Ihrer Anfrage erhalten Sie eine E-Mail-Benachrichtigung mit Ihren NetApp SSO-Anmeldedaten. Es dauert etwa 24 Stunden, die Anfrage zu bearbeiten und die E-Mail-Benachrichtigung zu senden.
 
 .Schritte

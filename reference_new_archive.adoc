@@ -28,7 +28,7 @@ Im Folgenden finden Sie eine archivierte Liste mit neuen Funktionen, die SaaS Ba
 == August 2018
 
 * Die Benutzeroberfläche wurde neu gestaltet und verbessert die Benutzerfreundlichkeit und Effizienz.
-* Die Richtlinien zur Datenaufbewahrung wurden aktualisiert, damit sie 3 Jahre lang aufbewahrt werden können.#backup_policies,Backup-Richtlinien
+* Die Richtlinien zur Datenaufbewahrung wurden aktualisiert, damit sie 3 Jahre lang aufbewahrt werden können.<<concept_backup_policies.adoc#backup_policies,Backup-Richtlinien>>
 
 
 
@@ -36,7 +36,7 @@ Im Folgenden finden Sie eine archivierte Liste mit neuen Funktionen, die SaaS Ba
 == Mai 2018
 
 * NetApp Cloud Control wurde in NetApp SaaS Backup für Microsoft 365 umbenannt.
-* Sie können jetzt Benutzer, Websitesammlungen und Microsoft 365 Gruppen löschen und alle zugehörigen Daten aus SaaS Backup für Microsoft 365 vollständig entfernen.#purging-a-user-site-collection-or-office-365-group,Löschen Sie einen Benutzer, eine Websitesammlung oder eine Microsoft 365-Gruppe
+* Sie können jetzt Benutzer, Websitesammlungen und Microsoft 365 Gruppen löschen und alle zugehörigen Daten aus SaaS Backup für Microsoft 365 vollständig entfernen.<<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,Löschen Sie einen Benutzer, eine Websitesammlung oder eine Microsoft 365-Gruppe>>
 * SaaS Backup entdeckt jetzt sowohl öffentliche als auch private Gruppen für Microsoft 365-Gruppen.
 
 
@@ -46,10 +46,10 @@ Im Folgenden finden Sie eine archivierte Liste mit neuen Funktionen, die SaaS Ba
 
 * SaaS Backup für Microsoft 365 unterstützt jetzt die gemeinsamen Mailboxen für Microsoft Office Exchange Online.
 +
-Freigegebene Mailboxen werden durch die Verwendung eines automatisch erstellten Servicekontos ermittelt. Wenn Sie vor diesem Update den Dienst für Microsoft Office Exchange Online nicht aktiviert haben, wird das automatische Servicekonto für freigegebene Mailboxen von SaaS Backup erstellt, wenn Sie Microsoft Office Exchange Online aktivieren. Wenn Ihr Dienst für Microsoft Office Exchange Online bereits aktiviert ist, müssen Sie SaaS Backup die Berechtigung erteilen, um das automatische Dienstkonto zu erstellen, damit Ihre freigegebenen Mailboxen erkannt und gesichert werden können. #granting-permissions-to-enable-shared-mailboxes,Erteilen Sie Berechtigungen für die Aktivierung von freigegebenen Mailboxen
+Freigegebene Mailboxen werden durch die Verwendung eines automatisch erstellten Servicekontos ermittelt. Wenn Sie vor diesem Update den Dienst für Microsoft Office Exchange Online nicht aktiviert haben, wird das automatische Servicekonto für freigegebene Mailboxen von SaaS Backup erstellt, wenn Sie Microsoft Office Exchange Online aktivieren. Wenn Ihr Dienst für Microsoft Office Exchange Online bereits aktiviert ist, müssen Sie SaaS Backup die Berechtigung erteilen, um das automatische Dienstkonto zu erstellen, damit Ihre freigegebenen Mailboxen erkannt und gesichert werden können. <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,Erteilen Sie Berechtigungen für die Aktivierung von freigegebenen Mailboxen>>
 
 +
-Nach der Erstellung Ihres automatischen Dienstkontos werden Ihre freigegebenen Mailboxen automatisch während der nächsten geplanten Synchronisierung Ihres Benutzerkontos ermittelt. Wenn Sie möchten, dass Ihre freigegebenen Mailboxen sofort erkannt werden, können Sie dies auch tun #sdiscovering-new-mailboxes-sites-and-groups,Ermitteln Sie Ihre Benutzerkonten sofort.
+Nach der Erstellung Ihres automatischen Dienstkontos werden Ihre freigegebenen Mailboxen automatisch während der nächsten geplanten Synchronisierung Ihres Benutzerkontos ermittelt. Wenn Sie möchten, dass Ihre freigegebenen Mailboxen sofort erkannt werden, können Sie dies auch tun <<task_discovering_new.adoc#sdiscovering-new-mailboxes-sites-and-groups,Ermitteln Sie Ihre Benutzerkonten sofort>>.
 
 
 
@@ -65,7 +65,7 @@ image:subscription_types_free_trial.jpg["Screenshot, der zeigt, wo Sie einen Akt
 
 == Februar 2018
 
-* Für Microsoft SharePoint Online ist jetzt die Filterung auf Basis der Vorlagen-ID verfügbar.#creating-a-user-defined-filer,Erstellen Sie einen benutzerdefinierten Filter
+* Für Microsoft SharePoint Online ist jetzt die Filterung auf Basis der Vorlagen-ID verfügbar.<<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,Erstellen Sie einen benutzerdefinierten Filter>>
 * Sie können das Aktivitätsprotokoll des SaaS Backup für Microsoft 365-Benutzerkontos nun in eine .csv-Datei herunterladen.link:task_downloading_data.html["Protokolle herunterladen"]
 * Die Synchronisierung von Benutzerkonten, Sites und Gruppen zwischen SaaS Backup für Microsoft 365 und Ihrem Dienst ist jetzt standardmäßig aktiviert.
 * Die Aufnahme des Backup-Versionsverlaufs ist jetzt standardmäßig aktiviert. Die Standardanzahl der Versionen ist 20.link:concept_backup_settings.html["Backup-Einstellungen"]
@@ -93,5 +93,5 @@ image:subscription_types_free_trial.jpg["Screenshot, der zeigt, wo Sie einen Akt
 
 == Oktober 2017
 
-* Es können Regeln erstellt werden, mit denen Benutzer auf der Grundlage vordefinierter Kriterien automatisch in eine vorab gewählte Backup-Tier verschoben werden können. Sie können Regeln für Microsoft Exchange Online und Microsoft OneDrive for Business erstellen. Für Microsoft SharePoint Online können keine Regeln erstellt werden.#creating-rules,Neue Regeln erstellen
+* Es können Regeln erstellt werden, mit denen Benutzer auf der Grundlage vordefinierter Kriterien automatisch in eine vorab gewählte Backup-Tier verschoben werden können. Sie können Regeln für Microsoft Exchange Online und Microsoft OneDrive for Business erstellen. Für Microsoft SharePoint Online können keine Regeln erstellt werden.<<task_creating_rules.adoc#creating-rules,Neue Regeln erstellen>>
 

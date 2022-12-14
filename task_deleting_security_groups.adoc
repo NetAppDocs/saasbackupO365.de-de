@@ -14,7 +14,7 @@ summary: Wenn eine Sicherheitsgruppe in einer benutzerdefinierten Regel verwende
 
 
 [role="lead"]
-Wenn eine Sicherheitsgruppe in einer benutzerdefinierten Regel verwendet wird, kann sie nicht gelöscht werden. Sie müssen die benutzerdefinierte Regel entfernen und dann die Sicherheitsgruppe löschen.#deleting-rules,Regeln werden gelöscht
+Wenn eine Sicherheitsgruppe in einer benutzerdefinierten Regel verwendet wird, kann sie nicht gelöscht werden. Sie müssen die benutzerdefinierte Regel entfernen und dann die Sicherheitsgruppe löschen.<<task_deleting_rules.adoc#deleting-rules,Regeln werden gelöscht>>
 
 .Schritte
 . Klicken Sie auf *KONTOEINSTELLUNGEN*.
