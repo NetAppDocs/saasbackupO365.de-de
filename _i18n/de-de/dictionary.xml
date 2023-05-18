@@ -213,8 +213,6 @@
   <block id="b32bf445c8b684008c9fd9cf380eb985" category="paragraph">Wenn Sie bereits Kunde sind und die moderne Authentifizierung nicht aktiviert haben, müssen Sie Maßnahmen ergreifen. Siehe <block ref="718d39ae8b1f35b36dc8c2837eb10373" category="inline-link-macro-rx"></block>.</block>
   <block id="a5667679a016ee66ef9bc45c1a173b3b" category="section-title">Dezember 2020</block>
   <block id="97b4589bea0c9a0d397ec4db7260d8e0" category="paragraph">Wenn Sie Microsoft Azure in den USA implementieren, verlassen Ihre Daten Ihre Microsoft Umgebung nicht. Während der Anmeldung für SaaS Backup für Microsoft 365 können Sie Azure Blob Storage oder Ihren eigenen Storage nutzen.</block>
-  <block id="a72ba6abcd432d690074b970ea9e1e5a" category="inline-link-macro">Melden Sie sich für SaaS Backup mit einer kostenlosen Testversion an</block>
-  <block id="8f8caa92edfef6726734d704b2b67044" category="paragraph"><block ref="8f8caa92edfef6726734d704b2b67044" category="inline-link-macro-rx"></block></block>
   <block id="86ca1026a5895f803f6cb3b59d638cdc" category="inline-link-macro">Melden Sie sich für SaaS Backup über ein kostenpflichtiges Abonnement an</block>
   <block id="d31c8900ff029d35426a6b655cf439ee" category="paragraph"><block ref="d31c8900ff029d35426a6b655cf439ee" category="inline-link-macro-rx"></block></block>
   <block id="0e347c50a0d60b8f46cb8c37cd3b5088" category="section-title">November 2020</block>
@@ -273,9 +271,7 @@
   <block id="692664770412ddd705b7f413cee7d6fb" category="section-title">März 2019</block>
   <block id="f342fec16bfb61a8dd26a7f7ee694ea0" category="list-text">SaaS Backup für Microsoft 365 unterstützt jetzt mehrere Backup-Standorte in jeder unterstützten Region.</block>
   <block id="fc450d190b34e98c0417e7cc17568f3c" category="paragraph">Als Standort für Ihr Daten-Backup können Sie jetzt einen der verfügbaren Standorte in Ihrer ausgewählten Region auswählen. Wir empfehlen, den Standort in der geografischen Nähe des Standorts für Ihre Daten zu wählen. Der von SaaS Backup empfohlene Ort ist in der Liste der Optionen als *bevorzugt* gekennzeichnet.</block>
-  <block id="8683bf91a11e498ffd74c9c3a102487d" category="admonition">Wenn Sie ein Upgrade von einer Testversion durchführen und sich einen Backup-Speicherort entscheiden, der sich vom in der Testversion verwendeten Speicherort unterscheidet, bleiben die Testdaten weiterhin erhalten.</block>
   <block id="5812c0f271e0e2c00e683f3df987dac2" category="inline-link-macro">Upgrade von einem Testabonnement</block>
-  <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
   <block id="8c673911badf0bc86b25912d2c703123" category="list-text">Sie können nun Benutzerlizenzen freigeben und anderen Benutzern zur Verfügung stellen.<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
   <block id="faae77443f7a8406deaf55c3795ace10" category="section-title">Februar 2019</block>
   <block id="82caf71ab4314503cd4b4826bf47361d" category="list-text">SaaS Backup für Microsoft 365 unterstützt jetzt:</block>
@@ -661,7 +657,6 @@
   <block id="23e9dcfa8b97aaea186eaaeb1177dea4" category="paragraph">Sie können *Erweiterte Suche* für Microsoft Exchange Online verwenden, um nach einzelnen oder freigegebenen Postfachelementen zu suchen und diese in ihrem ursprünglichen Postfach wiederherzustellen.</block>
   <block id="c7f1896c455334213518b5df2a860b44" category="paragraph">Administratoren können *Erweiterte Suche* aktivieren, indem Sie auf gehen <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> Und Senden eines Antrags. Sie können das SaaS Backup Support-Team auch per E-Mail an saasbackupsupport@netapp.com senden.</block>
   <block id="013131a779f73f268793ce1212aee294" category="inline-link-macro">Über Self Service Portal</block>
-  <block id="4c6fa9a7d2c0c345bf057d6d3e77c80a" category="paragraph">Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal (SSP) für einzelne Mieter aktivieren. Wenn Sie vor der ersten Sicherung *Erweiterte Suche* nicht aktivieren, werden keine Suchergebnisse angezeigt. Weitere Informationen über Self-Service-Portal finden Sie unter <block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block>.</block>
   <block id="267a5275d92e0cb500ece7c264c7eafe" category="inline-image-macro">Ein Screenshot der erweiterten Sucheinstellungen</block>
   <block id="4c1d3f657745aa4fa7c5b961a2f7a82f" category="paragraph"><block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e1c6cab6487c8b15e4140bfb0d5fd69" category="list-text"><block ref="7d190c308c24e5fb4e4af67edbc1dd47" category="inline-xref-macro-rx"></block></block>
@@ -1113,7 +1108,6 @@
   <block id="4ce57defce9dac056d069386ab60e048" category="paragraph">Beim Exportieren werden zwei ZIP-Dateien erstellt, eine ZIP-Datei für Microsoft 365-Gruppen-Mailbox und eine andere ZIP-Datei für Microsoft 365-Gruppen-SharePoint-Sites. Sie erhalten eine Benachrichtigungs-E-Mail mit dem Speicherort der PST-Datei und einer authentifizierten URL zum Speicherort der .zip-Datei.</block>
   <block id="441c6e9fc22b169f47087797e47a4e78" category="admonition">Wenn Sie die Option *Export to Data* Restore auswählen, ist der angegebene Link sieben Tage lang gültig und ist bereits authentifiziert.</block>
   <block id="6e1b2e76136fef4e065dc537ac7bec7d" category="paragraph">Es wird eine Meldung angezeigt, die angibt, dass der Wiederherstellungsauftrag erstellt wurde.</block>
-  <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">Informationen zur Verwendung des Self Service Portals zur Wiederherstellung von Elementen für Microsoft Exchange Online finden Sie unter <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>.</block>
   <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">Sie können Regeln für Microsoft Exchange Online, OneDrive for Business, SharePoint Online und Microsoft Office 365 Gruppen erstellen.</block>
   <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">Beispiel für benutzerdefinierten Filter und definierten SaaS-Backup-Filter zum Erstellen von Regeln</block>
   <block id="9472fea1831b90ee514f0ee8d8f8cdd4" category="paragraph">Sie müssen einen benutzerdefinierten Filter auf Ihre Daten anwenden, bevor Sie eine Regel erstellen können. Angewendete Filter werden unterhalb des Symbols *Filter* angezeigt. NetApp SaaS Backup für Microsoft 365 Standardfilter werden grau angezeigt. Benutzerdefinierte Filter werden hellblau angezeigt.<block ref="4197bfc4aebe6e6734416ba995e70d18" category="inline-image-macro-rx" type="image"></block></block>
@@ -1362,5 +1356,5 @@
   <block id="6dcf112116eaaafdcd1b045888627786" category="sidebar">Löschung von Daten für bezahlte Abonnements</block>
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">Nutzen Sie Das Self-Service-Portal</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Bevor Sie beginnen</block>
-  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Verwandte Informationen</block>
+  <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal (SSP) für einzelne Mieter aktivieren. Wenn Sie vor der ersten Sicherung *Erweiterte Suche* nicht aktivieren, werden keine Suchergebnisse angezeigt.</block>
 </blocks>

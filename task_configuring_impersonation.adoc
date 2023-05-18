@@ -20,7 +20,7 @@ Wenn Sie SaaS Backup mit Microsoft Exchange Online verwenden möchten, müssen S
 
 == Impersonation automatisch konfigurieren
 
-Um die Impersonation automatisch zu konfigurieren, führen Sie aus https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell-Befehle"].
+Um die Impersonation automatisch zu konfigurieren, führen Sie aus https://["MSDN PowerShell-Befehle"].
 
 
 

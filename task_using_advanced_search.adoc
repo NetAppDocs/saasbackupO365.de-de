@@ -18,7 +18,7 @@ Sie können *Erweiterte Suche* für Microsoft Exchange Online verwenden, um nach
 
 Administratoren können *Erweiterte Suche* aktivieren, indem Sie auf gehen link:https://mysupport.netapp.com/["Unterstützung"] Und Senden eines Antrags. Sie können das SaaS Backup Support-Team auch per E-Mail an saasbackupsupport@netapp.com senden.
 
-Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal (SSP) für einzelne Mieter aktivieren. Wenn Sie vor der ersten Sicherung *Erweiterte Suche* nicht aktivieren, werden keine Suchergebnisse angezeigt. Weitere Informationen über Self-Service-Portal finden Sie unter link:reference_about_ssp.html["Über Self Service Portal"].
+Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal (SSP) für einzelne Mieter aktivieren. Wenn Sie vor der ersten Sicherung *Erweiterte Suche* nicht aktivieren, werden keine Suchergebnisse angezeigt.
 
 image:advanced_search_settings_exchange.png["Ein Screenshot der erweiterten Sucheinstellungen"]
 

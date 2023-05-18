@@ -183,6 +183,3 @@ Es wird eine Meldung angezeigt, die angibt, dass der Wiederherstellungsauftrag e
 
 . Klicken Sie auf *Auftragsfortschritt anzeigen*, um den Fortschritt der Wiederherstellung zu überwachen.
 
-
-.Verwandte Informationen
-Informationen zur Verwendung des Self Service Portals zur Wiederherstellung von Elementen für Microsoft Exchange Online finden Sie unter link:reference_about_ssp.hmtl["Über Self Service Portal"].
