@@ -18,7 +18,7 @@ Sicherheitsgruppen können als Filteroptionen verwendet werden, um Ihre Daten an
 
 Sie können bis zu 3 Sicherheitsgruppen hinzufügen. Sie können dann Ihre Sicherheitsgruppen als Filteroptionen im SaaS Backup verwenden.
 
-Neue Sicherheitsgruppen müssen durch AutoSync oder eine manuelle Synchronisierung erkannt werden, bevor sie hinzugefügt werden können.https://["Erstellen, bearbeiten oder löschen Sie eine Sicherheitsgruppe im Admin Center"].
+Neue Sicherheitsgruppen müssen durch AutoSync oder eine manuelle Synchronisierung erkannt werden, bevor sie hinzugefügt werden können.https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide["Erstellen, bearbeiten oder löschen Sie eine Sicherheitsgruppe im Admin Center"].
 
 .Schritte
 . Klicken Sie auf *KONTOEINSTELLUNGEN*.
