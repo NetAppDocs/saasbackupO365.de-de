@@ -38,11 +38,14 @@ Für Microsoft SharePoint Online-Backups werden nur die folgenden Vorlagen unter
 * EHS#1 (Root-Standort)
 * EHS#0 (Root-Standort)
 * SITEPAGEPUBLISHING#0 (Kommunikationsstelle)
-* GRUPPE#0 (Präfix für die Websitesammlung der Gruppe)
+* SPSPERS#10 (persönliche Standorte)
 * STS#1 (leere Stelle)
 * STS#2 (Dokumentarbeitsbereich)
 * STS#3 (moderner Teamstandort)
 * APP#0 (App-Vorlage)
+* BLANKINTERNET#0 (Publishing Site)
+* TEAMCHANNEL#0
+* TEAMCHANNEL#1 (privater Teamkanal)
 
 
 

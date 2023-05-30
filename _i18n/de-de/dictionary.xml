@@ -36,7 +36,6 @@
   <block id="5a9fa37a8adc9079710c82bebd381be2" category="list-text">EHS#1 (Root-Standort)</block>
   <block id="a1c702db865ff7988cecde653d31e549" category="list-text">EHS#0 (Root-Standort)</block>
   <block id="e69fe81e6c14067bfa02448cc56f0d90" category="list-text">SITEPAGEPUBLISHING#0 (Kommunikationsstelle)</block>
-  <block id="cd6b1dceac9feb15ce679e63c41ec14b" category="list-text">GRUPPE#0 (Präfix für die Websitesammlung der Gruppe)</block>
   <block id="02331da6f964bf5a355bef176199392c" category="list-text">STS#1 (leere Stelle)</block>
   <block id="370f28e84c7e5f280c6384763af39ff8" category="list-text">STS#2 (Dokumentarbeitsbereich)</block>
   <block id="bb39ae34f785130781c5d7c8f66840ca" category="list-text">STS#3 (moderner Teamstandort)</block>
@@ -1357,4 +1356,8 @@
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">Nutzen Sie Das Self-Service-Portal</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Bevor Sie beginnen</block>
   <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">Nachdem Sie *Erweiterte Suche* aktiviert haben, können Sie Self Service Portal (SSP) für einzelne Mieter aktivieren. Wenn Sie vor der ersten Sicherung *Erweiterte Suche* nicht aktivieren, werden keine Suchergebnisse angezeigt.</block>
+  <block id="ecdf921a3a6a074b60616280efaea786" category="list-text">SPSPERS#10 (persönliche Standorte)</block>
+  <block id="f381330caab1211a505b46814d00dafe" category="list-text">BLANKINTERNET#0 (Publishing Site)</block>
+  <block id="b6402d0dbe2678a6ff7d1ebe657c7846" category="list-text">TEAMCHANNEL#0</block>
+  <block id="f240a6450359519ca5f7b84a102e94a3" category="list-text">TEAMCHANNEL#1 (privater Teamkanal)</block>
 </blocks>
