@@ -5,15 +5,12 @@ keywords: overview, concepts, features, use case
 summary: 'NetApp SaaS Backup für Microsoft 365 ist ein sicheres, webbasiertes SaaS-Angebot (Software als Service), das Ihre Microsoft 365 Daten auf Amazon S3 Storage oder Microsoft Azure Blob Storage sichert.' 
 ---
 = NetApp SaaS Backup für Microsoft 365 – Übersicht
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

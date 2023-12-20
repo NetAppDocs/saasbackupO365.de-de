@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, retention, period, update,
 summary: Sie können die Zeitspanne in den Jahren aktualisieren, während die Daten für einzelne Tiers, Mailboxen, Standorte und MySites aufbewahrt werden, auf 7 Jahre, 10 Jahre oder unbegrenzt. 
 ---
 = Aktualisieren Sie den Aufbewahrungszeitraum für Backups
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

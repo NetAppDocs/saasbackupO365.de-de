@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned
 summary: Sie können eine Liste der gelöschten Mailboxen oder Benutzerkonten anzeigen. 
 ---
 = Zeigen Sie eine Liste der debereitgestellten Elemente an
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

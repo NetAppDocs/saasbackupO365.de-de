@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, synchronize, synchronizing, granti
 summary: Innerhalb von NetApp SaaS Backup für Microsoft 365 können Sie Berechtigungen mit Azure Active Directory managen. 
 ---
 = Synchronisieren Sie Benutzerberechtigungen mit Azure Active Directory
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

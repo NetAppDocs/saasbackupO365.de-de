@@ -5,15 +5,12 @@ keywords: where to find more information, help, support
 summary: Weitere Informationen finden Sie in dem Community-Forum und den Knowledge Base-Artikeln zu NetApp SaaS Backup für Microsoft 365. 
 ---
 = Wo Sie Hilfe und weitere Informationen erhalten
-:toc: macro
 :hardbreaks:
 :allow-uri-read: 
-:toc: 
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 Weitere Informationen finden Sie in dem Community-Forum und den Knowledge Base-Artikeln zu NetApp SaaS Backup für Microsoft 365.

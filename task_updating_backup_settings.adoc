@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating,
 summary: Sie können Ihre Backup-Einstellungen aktualisieren, um verschiedene Backup-Optionen zu steuern. Die verfügbaren Backup-Einstellungen variieren je nach Service. 
 ---
 = Backup-Einstellungen aktualisieren
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
